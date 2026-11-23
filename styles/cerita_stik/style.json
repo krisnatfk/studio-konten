@@ -1,0 +1,11 @@
+{
+  "name": "cerita_stik",
+  "label": "Cerita Stik (kartun kampung, kebun dan diagram bergerak)",
+  "fallback": "cerita_stik",
+  "warna_subtitle": {"narasi": "#fffdf5", "dialog": "#ffe073", "seram": "#ffe073"},
+  "ambience": {},
+  "sfx": {},
+  "vo_echo": false,
+  "bgm_volume": 0.14,
+  "maks_detik_adegan": 6
+}

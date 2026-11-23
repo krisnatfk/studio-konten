@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><title>Cerita Stik</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#9bcff0}
+#stage{width:1080px;height:1920px;overflow:hidden;position:relative;color:#fffdf5;font:900 64px/1.1 "DejaVu Sans",sans-serif}
+canvas{position:absolute;inset:0}
+#sub,#title,#wm,#label{position:absolute;left:5%;width:90%;text-align:center;overflow-wrap:anywhere}
+#sub,#wm,#title{paint-order:stroke fill;-webkit-text-stroke:11px #29212b;text-shadow:0 6px 1px #29212b}
+#sub{top:66%;font-size:67px}
+#title,#label{top:9%;font-size:49px}
+#label span{display:inline-block;max-width:95%;border:5px solid #30252b;border-radius:18px;padding:8px 21px;color:#271e23;background:var(--badge);box-shadow:0 4px 0 #30252b;text-transform:uppercase;letter-spacing:-1px}
+#wm{top:92%;font-size:28px;text-align:right;-webkit-text-stroke-width:5px}
+</style></head><body><div id="stage"><canvas id="art" width="1080" height="1920"></canvas><div id="title"></div><div id="label"><span></span></div><div id="sub"></div><div id="wm"></div></div>
+<script>/*__SCENES__*/</script><script>window.PLAN=/*__PLAN__*/;Stik.boot(window.PLAN);</script></body></html>

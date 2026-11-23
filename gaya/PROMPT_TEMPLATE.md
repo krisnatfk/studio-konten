@@ -1,0 +1,5 @@
+Buat video animasi dari naskah dan audio narasi yang saya lampirkan. Pilih gaya sesuai isi cerita, yaitu Horor Kampung, Edukasi 3D, atau Cerita Stik. Untuk tokoh berkepala bulat dengan kaki dan lengan garis, gunakan `cerita_stik` dan ikuti [panduan visualnya](../styles/cerita_stik/STYLE.md). Gunakan proyek ini sampai menghasilkan MP4 vertikal 1080 × 1920 yang siap ditonton.
+
+Jadikan audio lampiran sebagai narasi utama. Sinkronkan adegan, aksi, dan subtitle bahasa Indonesia dengan naskah serta waktu ucapan. Rancang alur yang menarik dengan **minimal 20 shot berbeda dan 50 momen visual yang benar-benar berbeda**. Setiap momen harus memperlihatkan aksi, detail, atau perkembangan cerita yang jelas. Variasikan sudut kamera dan komposisi sesuai kebutuhan cerita, serta jaga kesinambungan tokoh, objek, dan lokasi.
+
+Render videonya, periksa storyboard dan MP4 bersama audionya, lalu perbaiki bagian yang berulang, kurang jelas, atau tidak sinkron. Kirim file MP4 final beserta storyboard. Jika hasil belum memenuhi standar kualitas proyek, kirim pratinjau dan jelaskan bagian yang masih perlu diperbaiki.

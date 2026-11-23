@@ -1,0 +1,24 @@
+{
+ "name": "edukasi_3d",
+ "label": "Edukasi 3D (diorama low-poly, potongan tanah, gaya 'gimana bisa')",
+ "fallback": "edukasi",
+ "warna_subtitle": {
+  "narasi": "#ffffff",
+  "dialog": "#ffffff",
+  "seram": "#ffd23f"
+ },
+ "ambience": {},
+ "sfx": {
+  "ketuk": {
+   "file": "tok.wav",
+   "vol": 0.5
+  },
+  "brak": {
+   "file": "brak.wav",
+   "vol": 0.6
+  }
+ },
+ "vo_echo": false,
+ "bgm_volume": 0.16,
+ "maks_detik_adegan": 7
+}

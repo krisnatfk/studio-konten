@@ -1,0 +1,122 @@
+{
+  "halaman": {
+    "desc": "Dialog atau aktivitas bebas di halaman desa atau kebun. Kustom menambah benda dari path lokal.",
+    "params": {
+      "latar": {"type": "enum", "values": ["halaman", "kebun"], "default": "halaman"},
+      "tokoh": {"type": "enum", "values": ["anak", "petani", "pemuda", "tetua", "warga", "pekerja", "ibu"], "default": "anak"},
+      "teman": {"type": "enum", "values": ["sendiri", "anak", "petani", "pemuda", "tetua", "warga", "pekerja", "ibu"], "default": "sendiri"},
+      "ekspresi": {"type": "enum", "values": ["senang", "cemas", "kaget", "bicara"], "default": "senang"},
+      "aksi": {"type": "enum", "values": ["diam", "tunjuk", "angkat", "jalan", "pegang", "baca"], "default": "diam"},
+      "benda": {"type": "enum", "values": ["kosong", "buku", "kelapa", "ember", "bibit", "gulungan"], "default": "kosong"},
+      "waktu": {"type": "enum", "values": ["siang", "sore"], "default": "siang"},
+      "cuaca": {"type": "enum", "values": ["cerah", "hujan"], "default": "cerah"},
+      "kustom": {"type": "list", "max": 6, "default": [], "desc": "objek path SVG lokal, warna hex, x/y pada 540x960, skala, cue/kata, akhir_cue"},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  },
+  "layang_layang": {
+    "desc": "Tokoh menerbangkan layangan di lapangan. Benang, gulungan, ekor dan layangan kecil di langit.",
+    "params": {
+      "tokoh": {"type": "enum", "values": ["anak", "petani", "pemuda", "tetua", "warga", "pekerja", "ibu"], "default": "anak"},
+      "aksi": {"type": "enum", "values": ["terbang", "jatuh"], "default": "terbang"},
+      "lubang": {"type": "bool", "default": false},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true},
+      "acara": {"type": "enum", "values": ["latihan", "lomba", "menang"], "default": "latihan"}
+    }
+  },
+  "meja_kerja": {
+    "desc": "Merakit atau mengangkat layangan kertas di bengkel kayu.",
+    "params": {
+      "tokoh": {"type": "enum", "values": ["anak", "petani", "pemuda", "tetua", "warga", "pekerja", "ibu"], "default": "anak"},
+      "aksi": {"type": "enum", "values": ["rakit", "angkat"], "default": "rakit"},
+      "lubang": {"type": "bool", "default": false},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  },
+  "diagram_angin": {
+    "desc": "Tampak dekat layangan dengan panah datang dan arah aliran angin di tengah.",
+    "params": {
+      "kondisi": {"type": "enum", "values": ["rapat", "berlubang"], "default": "rapat"},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  },
+  "kebun_kelapa": {
+    "desc": "Berjalan, membaca, atau memeriksa hasil kebun di antara kelapa, pagar, buah dan bukit.",
+    "params": {
+      "tokoh": {"type": "enum", "values": ["pemuda", "anak", "petani", "tetua", "warga", "pekerja", "ibu"], "default": "pemuda"},
+      "ekspresi": {"type": "enum", "values": ["senang", "cemas", "kaget", "bicara"], "default": "senang"},
+      "aksi": {"type": "enum", "values": ["diam", "tunjuk", "angkat", "jalan", "pegang", "baca"], "default": "diam"},
+      "benda": {"type": "enum", "values": ["kosong", "buku", "kelapa", "ember", "bibit", "gulungan"], "default": "kosong"},
+      "cuaca": {"type": "enum", "values": ["cerah", "hujan"], "default": "cerah"},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  },
+  "catatan": {
+    "desc": "Sisipan buku terbuka dengan sketsa dan tulisan singkat pada kertas tua di atas kayu.",
+    "params": {
+      "benda": {"type": "enum", "values": ["kelapa", "layang", "bibit"], "default": "kelapa"},
+      "catatan": {"type": "str", "default": ""},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  },
+  "akar_kelapa": {
+    "desc": "Irisan tanah menunjukkan serabut akar dan partikel air atau mineral mengalir menuju akar.",
+    "params": {
+      "zat": {"type": "enum", "values": ["air", "mineral"], "default": "air"},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  },
+  "tangki": {
+    "desc": "Penampang halaman, lubang, isi organik, gelembung gas, dan jalur pipa sesuai tahap.",
+    "params": {
+      "tahap": {"type": "enum", "values": ["lubang", "isi", "tertutup", "terurai", "gas", "aliran"], "default": "lubang"},
+      "waktu": {"type": "enum", "values": ["siang", "sore"], "default": "siang"},
+      "cuaca": {"type": "enum", "values": ["cerah", "hujan"], "default": "cerah"},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": false}
+    }
+  },
+  "dapur": {
+    "desc": "Ujung aliran di dapur, nyala biru di bawah panci dengan uap.",
+    "params": {
+      "tokoh": {"type": "enum", "values": ["warga", "anak", "petani", "pemuda", "tetua", "pekerja", "ibu"], "default": "warga"},
+      "nyala": {"type": "bool", "default": true},
+      "label": {"type": "str", "default": ""},
+      "warna_label": {"type": "enum", "values": ["kuning", "gas", "air", "peringatan", "netral"], "default": "kuning"},
+      "label_cue": {"type": "cue", "desc": "mulai label pada cue ini"},
+      "pemicu": {"type": "str", "default": ""},
+      "subtitel": {"type": "bool", "default": true}
+    }
+  }
+}

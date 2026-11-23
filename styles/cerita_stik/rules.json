@@ -1,0 +1,18 @@
+[
+  {"match": "kompor|memasak|api biru|nyala biru", "scene": "dapur", "params": {"label": "Nyala biru", "warna_label": "air"}},
+  {"match": "gas.{0,25}(pipa|mengalir|salur)|pipa.{0,20}gas", "scene": "tangki", "params": {"tahap": "aliran", "label": "Gas mengalir", "warna_label": "gas"}},
+  {"match": "bakteri|mikroba|mengurai", "scene": "tangki", "params": {"tahap": "terurai", "label": "Sisa mulai terurai"}},
+  {"match": "tangki tertutup|menutup tangki", "scene": "tangki", "params": {"tahap": "tertutup", "label": "Tangki tertutup"}},
+  {"match": "biogas|gelembung|menghasilkan gas|membentuk gas", "scene": "tangki", "params": {"tahap": "gas", "label": "Gas terkumpul", "warna_label": "gas"}},
+  {"match": "sisa (sayur|makan|dapur)|sampah organik|mengisi tangki", "scene": "tangki", "params": {"tahap": "isi", "label": "Sisa organik"}},
+  {"match": "gal[iu].*lubang|lubang.*halaman", "scene": "tangki", "params": {"tahap": "lubang", "label": "Lubang di halaman"}},
+  {"match": "akar|mineral tanah", "scene": "akar_kelapa", "params": {}},
+  {"match": "angin.{0,24}(lewat|lolos)|lubang.{0,24}angin", "scene": "diagram_angin", "params": {"kondisi": "berlubang", "label": "Angin lewat", "warna_label": "air"}},
+  {"match": "tekanan angin|angin.{0,16}tertahan", "scene": "diagram_angin", "params": {"kondisi": "rapat", "label": "Angin tertahan", "warna_label": "peringatan"}},
+  {"match": "(merakit|rangka|kertas|bambu).{0,26}layang|layang.{0,26}(rakit|rangka|kertas|bambu)", "scene": "meja_kerja", "params": {"aksi": "angkat"}},
+  {"match": "layang|benang putus", "scene": "layang_layang", "params": {}},
+  {"match": "buku|catatan", "scene": "catatan", "params": {}},
+  {"match": "kebun|kelapa|panen", "scene": "kebun_kelapa", "params": {"aksi": "pegang", "benda": "kelapa"}},
+  {"match": "(berjalan|melangkah)", "scene": "halaman", "params": {"aksi": "jalan"}},
+  {"match": "(bertanya|menjawab|berkata)", "scene": "halaman", "params": {"aksi": "tunjuk", "ekspresi": "bicara", "teman": "petani"}}
+]

@@ -1,0 +1,10 @@
+.env
+.venv/
+data/
+__pycache__/
+*.pyc
+sfx/*.wav
+
+# Local renders and tool cache
+/Hasil Produksi/
+/.ruff_cache/

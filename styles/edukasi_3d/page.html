@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;padding:0;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#8cc4f0;font-family:'Inter','Noto Sans','DejaVu Sans',sans-serif}
+#gl,#comp,#prev{position:absolute;left:0;top:0;width:1080px;height:1920px}
+#prev{opacity:0}
+#comp{display:none}
+#hud{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:visible}
+#hdr{position:absolute;left:0;top:0;width:1080px;height:330px;opacity:0;
+  background:linear-gradient(180deg,rgba(246,242,234,.97) 0,rgba(246,242,234,.92) 48%,rgba(246,242,234,0) 100%)}
+#hlab{position:absolute;left:58px;top:96px;font-weight:800;font-size:23px;letter-spacing:3px;color:#5d5a55;text-transform:uppercase}
+#hlab:before{content:'';display:inline-block;width:10px;height:10px;border-radius:50%;background:#3157e8;margin-right:12px;vertical-align:3px}
+#htit{position:absolute;left:58px;top:132px;width:964px;font-weight:800;font-size:54px;line-height:1.18;color:#1b1b1d;letter-spacing:-.5px}
+.hl{display:inline-block;background:#3157e8;color:#fff;padding:0 12px 4px;border-radius:7px;box-shadow:0 0 0 3px #a9bcff}
+#sub{position:absolute;left:50px;width:980px;top:1300px;text-align:center;font-weight:800;font-size:66px;line-height:1.25;color:#fff;
+  -webkit-text-stroke:11px #17181c;paint-order:stroke fill;letter-spacing:.5px}
+#sub span{display:inline-block;margin:0 9px}
+#sub span.k{background:#3157e8;-webkit-text-stroke:0;padding:0 14px 6px;border-radius:9px;box-shadow:0 0 0 4px #a9bcff,0 6px 0 #17181c}
+#sub span.w{color:#ffd23f}
+#wm{position:absolute;right:42px;top:1820px;font-weight:700;font-size:28px;color:#fff;opacity:0;-webkit-text-stroke:6px rgba(0,0,0,.45);paint-order:stroke fill}
+#blk{position:absolute;left:0;top:0;width:1080px;height:1920px;background:#fff;opacity:1;pointer-events:none}
+</style></head><body>
+<div id="stage">
+ <canvas id="gl" width="1080" height="1920"></canvas>
+ <canvas id="comp" width="1080" height="1920"></canvas>
+ <canvas id="prev" width="1080" height="1920"></canvas>
+ <svg id="hud" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+ <div id="hdr"><div id="hlab"></div><div id="htit"></div></div>
+ <div id="sub"></div><div id="wm"></div><div id="blk"></div>
+</div>
+<script>/*__SCENES__*/</script>
+<script>window.PLAN=/*__PLAN__*/;ENG.boot(window.PLAN);</script>
+</body></html>

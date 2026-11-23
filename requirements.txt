@@ -1,0 +1,4 @@
+requests>=2.31
+Pillow>=10
+playwright>=1.45
+# faster-whisper dipasang oleh install.sh (opsional)

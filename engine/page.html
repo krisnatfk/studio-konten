@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;padding:0;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#0a0604}
+#art{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:hidden}
+.sc{position:absolute;left:0;top:0;width:1080px;height:1920px;display:none;overflow:hidden}
+.sc svg{position:absolute;left:0;top:0}
+#dust{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none}
+#flash{position:absolute;left:0;top:0;width:1080px;height:1920px;background:#cfe0ff;opacity:0;pointer-events:none;mix-blend-mode:screen}
+#fade{position:absolute;left:0;top:1260px;width:1080px;height:660px;pointer-events:none;background:linear-gradient(to bottom,rgba(6,4,3,0),rgba(6,4,3,.62) 45%,rgba(6,4,3,.82) 100%)}
+#tfade{position:absolute;left:0;top:0;width:1080px;height:230px;pointer-events:none;background:linear-gradient(to bottom,rgba(6,4,3,.7),rgba(6,4,3,0))}
+#vig{position:absolute;left:0;top:0;width:1080px;height:1920px;pointer-events:none;background:radial-gradient(ellipse 75% 55% at 50% 38%,rgba(0,0,0,0) 40%,rgba(0,0,0,.72) 100%)}
+#grain{position:absolute;left:-200px;top:-200px;width:1480px;height:2320px;opacity:.10;mix-blend-mode:overlay;pointer-events:none}
+#title{position:absolute;left:0;top:58px;width:1080px;text-align:center;font-family:'Cormorant Garamond','Noto Serif','DejaVu Serif',serif;font-size:27px;letter-spacing:9px;color:rgba(232,205,160,.6);text-transform:uppercase}
+#sub{position:absolute;left:60px;top:1490px;width:960px;text-align:center;font-family:'Inter','Noto Sans','DejaVu Sans',sans-serif;font-weight:600;font-size:54px;line-height:1.38;color:#f3ead9;text-shadow:0 2px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.8);text-wrap:balance}
+#wm{position:absolute;left:0;top:1830px;width:1080px;text-align:center;font-family:'Inter','Noto Sans','DejaVu Sans',sans-serif;font-size:30px;letter-spacing:2px;color:#d8c6a6;opacity:0}
+#blk{position:absolute;left:0;top:0;width:1080px;height:1920px;background:#000;opacity:1;pointer-events:none}
+</style></head><body>
+<div id="stage">
+ <svg id="defs" width="0" height="0" style="position:absolute"></svg>
+ <div id="art"></div>
+ <canvas id="dust" width="1080" height="1920"></canvas>
+ <div id="flash"></div>
+ <div id="fade"></div>
+ <div id="tfade"></div>
+ <div id="vig"></div>
+ <canvas id="grain" width="256" height="256"></canvas>
+ <div id="title"></div>
+ <div id="sub"></div>
+ <div id="wm"></div>
+ <div id="blk"></div>
+</div>
+<script>/*__CORE__*/</script>
+<script>/*__SCENES__*/</script>
+<script>window.PLAN=/*__PLAN__*/;ENG.boot(window.PLAN);</script>
+</body></html>

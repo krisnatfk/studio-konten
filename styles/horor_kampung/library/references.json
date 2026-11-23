@@ -1,0 +1,8072 @@
+[
+ {
+  "id": "kampung_malam-1",
+  "template": "kampung_malam",
+  "text": "Kampung itu diselimuti kabut pada malam hari.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kampung itu diselimuti kabut pada malam hari."
+   }
+  ],
+  "plan": {
+   "judul": "kampung malam",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kampung_malam",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kampung_malam-2",
+  "template": "kampung_malam",
+  "text": "Kampung itu diselimuti kabut pada malam hari. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kampung itu diselimuti kabut pada malam hari. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "kampung malam",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kampung_malam",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kampung_malam-negative",
+  "template": "kampung_malam",
+  "text": "Tidak ada kegiatan kampung malam di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "rumah_panggung-1",
+  "template": "rumah_panggung",
+  "text": "Cahaya lampu tampak dari rumah panggung kayu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Cahaya lampu tampak dari rumah panggung kayu."
+   }
+  ],
+  "plan": {
+   "judul": "rumah panggung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "rumah_panggung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "rumah_panggung-2",
+  "template": "rumah_panggung",
+  "text": "Cahaya lampu tampak dari rumah panggung kayu. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Cahaya lampu tampak dari rumah panggung kayu. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "rumah panggung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "rumah_panggung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "rumah_panggung-negative",
+  "template": "rumah_panggung",
+  "text": "Tidak ada kegiatan rumah panggung di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "pos_ronda_kosong-1",
+  "template": "pos_ronda_kosong",
+  "text": "Pos ronda itu kosong dan sunyi.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pos ronda itu kosong dan sunyi."
+   }
+  ],
+  "plan": {
+   "judul": "pos ronda kosong",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pos_ronda_kosong",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pos_ronda_kosong-2",
+  "template": "pos_ronda_kosong",
+  "text": "Pos ronda itu kosong dan sunyi. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pos ronda itu kosong dan sunyi. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "pos ronda kosong",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pos_ronda_kosong",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pos_ronda_kosong-negative",
+  "template": "pos_ronda_kosong",
+  "text": "Tidak ada kegiatan pos ronda kosong di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kentongan_dekat-1",
+  "template": "kentongan_dekat",
+  "text": "Kentongan kayu tergantung bersama pemukulnya.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kentongan kayu tergantung bersama pemukulnya."
+   }
+  ],
+  "plan": {
+   "judul": "kentongan dekat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kentongan_dekat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kentongan_dekat-2",
+  "template": "kentongan_dekat",
+  "text": "Kentongan kayu tergantung bersama pemukulnya. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kentongan kayu tergantung bersama pemukulnya. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "kentongan dekat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kentongan_dekat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kentongan_dekat-negative",
+  "template": "kentongan_dekat",
+  "text": "Tidak ada kegiatan kentongan dekat di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "pintu_diketuk-1",
+  "template": "pintu_diketuk",
+  "text": "Terdengar ketukan dari balik pintu kayu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Terdengar ketukan dari balik pintu kayu."
+   }
+  ],
+  "plan": {
+   "judul": "pintu diketuk",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pintu_diketuk",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pintu_diketuk-2",
+  "template": "pintu_diketuk",
+  "text": "Terdengar ketukan dari balik pintu kayu. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Terdengar ketukan dari balik pintu kayu. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "pintu diketuk",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pintu_diketuk",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pintu_diketuk-negative",
+  "template": "pintu_diketuk",
+  "text": "Tidak ada kegiatan pintu diketuk di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kamar_lampu-1",
+  "template": "kamar_lampu",
+  "text": "Aku duduk sendirian di kamar diterangi lampu minyak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Aku duduk sendirian di kamar diterangi lampu minyak."
+   }
+  ],
+  "plan": {
+   "judul": "kamar lampu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kamar_lampu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kamar_lampu-2",
+  "template": "kamar_lampu",
+  "text": "Aku duduk sendirian di kamar diterangi lampu minyak. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Aku duduk sendirian di kamar diterangi lampu minyak. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "kamar lampu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kamar_lampu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kamar_lampu-negative",
+  "template": "kamar_lampu",
+  "text": "Tidak ada kegiatan kamar lampu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "rumah_kosong_pagi-1",
+  "template": "rumah_kosong_pagi",
+  "text": "Pagi itu rumah panggung tampak kosong, pintunya terbuka.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pagi itu rumah panggung tampak kosong, pintunya terbuka."
+   }
+  ],
+  "plan": {
+   "judul": "rumah kosong pagi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "rumah_kosong_pagi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "rumah_kosong_pagi-2",
+  "template": "rumah_kosong_pagi",
+  "text": "Pagi itu rumah panggung tampak kosong, pintunya terbuka. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pagi itu rumah panggung tampak kosong, pintunya terbuka. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "rumah kosong pagi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "rumah_kosong_pagi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "rumah_kosong_pagi-negative",
+  "template": "rumah_kosong_pagi",
+  "text": "Tidak ada kegiatan rumah kosong pagi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "meja_makan-1",
+  "template": "meja_makan",
+  "text": "Nasi hangat masih mengepul di meja makan yang ditinggalkan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Nasi hangat masih mengepul di meja makan yang ditinggalkan."
+   }
+  ],
+  "plan": {
+   "judul": "meja makan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "meja_makan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "meja_makan-2",
+  "template": "meja_makan",
+  "text": "Nasi hangat masih mengepul di meja makan yang ditinggalkan. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Nasi hangat masih mengepul di meja makan yang ditinggalkan. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "meja makan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "meja_makan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "meja_makan-negative",
+  "template": "meja_makan",
+  "text": "Tidak ada kegiatan meja makan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "jendela_malam-1",
+  "template": "jendela_malam",
+  "text": "Dari dalam rumah, terlihat pos ronda melalui jendela.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Dari dalam rumah, terlihat pos ronda melalui jendela."
+   }
+  ],
+  "plan": {
+   "judul": "jendela malam",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jendela_malam",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jendela_malam-2",
+  "template": "jendela_malam",
+  "text": "Dari dalam rumah, terlihat pos ronda melalui jendela. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Dari dalam rumah, terlihat pos ronda melalui jendela. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "jendela malam",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jendela_malam",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jendela_malam-negative",
+  "template": "jendela_malam",
+  "text": "Tidak ada kegiatan jendela malam di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kamar_tidur-1",
+  "template": "kamar_tidur",
+  "text": "Sosok bayangan muncul di sudut kamar saat keluarga tertidur.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Sosok bayangan muncul di sudut kamar saat keluarga tertidur."
+   }
+  ],
+  "plan": {
+   "judul": "kamar tidur",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kamar_tidur",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kamar_tidur-2",
+  "template": "kamar_tidur",
+  "text": "Sosok bayangan muncul di sudut kamar saat keluarga tertidur. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Sosok bayangan muncul di sudut kamar saat keluarga tertidur. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "kamar tidur",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kamar_tidur",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kamar_tidur-negative",
+  "template": "kamar_tidur",
+  "text": "Tidak ada kegiatan kamar tidur di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "hutan_kabut-1",
+  "template": "hutan_kabut",
+  "text": "Seorang warga berjalan membawa lentera di hutan berkabut.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang warga berjalan membawa lentera di hutan berkabut."
+   }
+  ],
+  "plan": {
+   "judul": "hutan kabut",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "hutan_kabut",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "hutan_kabut-2",
+  "template": "hutan_kabut",
+  "text": "Seorang warga berjalan membawa lentera di hutan berkabut. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang warga berjalan membawa lentera di hutan berkabut. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "hutan kabut",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "hutan_kabut",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "hutan_kabut-negative",
+  "template": "hutan_kabut",
+  "text": "Tidak ada kegiatan hutan kabut di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kuburan-1",
+  "template": "kuburan",
+  "text": "Pocong berdiri di antara nisan pemakaman kampung.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pocong berdiri di antara nisan pemakaman kampung."
+   }
+  ],
+  "plan": {
+   "judul": "kuburan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kuburan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kuburan-2",
+  "template": "kuburan",
+  "text": "Pocong berdiri di antara nisan pemakaman kampung. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pocong berdiri di antara nisan pemakaman kampung. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "kuburan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kuburan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kuburan-negative",
+  "template": "kuburan",
+  "text": "Tidak ada kegiatan kuburan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "sumur-1",
+  "template": "sumur",
+  "text": "Kuntilanak perlahan muncul dari sumur tua.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kuntilanak perlahan muncul dari sumur tua."
+   }
+  ],
+  "plan": {
+   "judul": "sumur",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "sumur",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "sumur-2",
+  "template": "sumur",
+  "text": "Kuntilanak perlahan muncul dari sumur tua. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kuntilanak perlahan muncul dari sumur tua. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "sumur",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "sumur",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "sumur-negative",
+  "template": "sumur",
+  "text": "Tidak ada kegiatan sumur di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "jalan_setapak-1",
+  "template": "jalan_setapak",
+  "text": "Seorang warga berjalan sendirian membawa lentera di jalan tanah.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang warga berjalan sendirian membawa lentera di jalan tanah."
+   }
+  ],
+  "plan": {
+   "judul": "jalan setapak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jalan_setapak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jalan_setapak-2",
+  "template": "jalan_setapak",
+  "text": "Seorang warga berjalan sendirian membawa lentera di jalan tanah. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang warga berjalan sendirian membawa lentera di jalan tanah. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "jalan setapak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jalan_setapak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jalan_setapak-negative",
+  "template": "jalan_setapak",
+  "text": "Tidak ada kegiatan jalan setapak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "sosok_dekat-1",
+  "template": "sosok_dekat",
+  "text": "Mata sosok berjubah perlahan terlihat dalam kegelapan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Mata sosok berjubah perlahan terlihat dalam kegelapan."
+   }
+  ],
+  "plan": {
+   "judul": "sosok dekat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "sosok_dekat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "sosok_dekat-2",
+  "template": "sosok_dekat",
+  "text": "Mata sosok berjubah perlahan terlihat dalam kegelapan. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Mata sosok berjubah perlahan terlihat dalam kegelapan. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "sosok dekat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "sosok_dekat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "sosok_dekat-negative",
+  "template": "sosok_dekat",
+  "text": "Tidak ada kegiatan sosok dekat di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "judul_kartu-1",
+  "template": "judul_kartu",
+  "text": "Kartu pembuka tanpa narasi: Malam Jumat Kliwon.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kartu pembuka tanpa narasi: Malam Jumat Kliwon."
+   }
+  ],
+  "plan": {
+   "judul": "judul kartu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "judul_kartu",
+     "params": {
+      "teks": "Malam Jumat Kliwon",
+      "sub": "Kisah kampung"
+     },
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "judul_kartu-2",
+  "template": "judul_kartu",
+  "text": "Kartu pembuka tanpa narasi: Malam Jumat Kliwon. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Kartu pembuka tanpa narasi: Malam Jumat Kliwon. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "judul kartu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "judul_kartu",
+     "params": {
+      "teks": "Malam Jumat Kliwon",
+      "sub": "Kisah kampung"
+     },
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "judul_kartu-negative",
+  "template": "judul_kartu",
+  "text": "Tidak ada kegiatan judul kartu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "komposisi-1",
+  "template": "komposisi",
+  "text": "Seorang petani berjalan melewati pematang sawah.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang petani berjalan melewati pematang sawah."
+   }
+  ],
+  "plan": {
+   "judul": "komposisi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "komposisi",
+     "params": {
+      "latar": "sawah",
+      "aktor": [
+       {
+        "jenis": "pria",
+        "pose": "jalan",
+        "x": 40,
+        "x_akhir": 60,
+        "y": 73,
+        "skala": 0.8
+       }
+      ]
+     },
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "komposisi-2",
+  "template": "komposisi",
+  "text": "Seorang petani berjalan melewati pematang sawah. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang petani berjalan melewati pematang sawah. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "komposisi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "komposisi",
+     "params": {
+      "latar": "sawah",
+      "aktor": [
+       {
+        "jenis": "pria",
+        "pose": "jalan",
+        "x": 40,
+        "x_akhir": 60,
+        "y": 73,
+        "skala": 0.8
+       }
+      ]
+     },
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "komposisi-negative",
+  "template": "komposisi",
+  "text": "Tidak ada kegiatan komposisi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "pasar_ramai-1",
+  "template": "pasar_ramai",
+  "text": "Pedagang dan pembeli meramaikan pasar malam.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pedagang dan pembeli meramaikan pasar malam."
+   }
+  ],
+  "plan": {
+   "judul": "pasar ramai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pasar_ramai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pasar_ramai-2",
+  "template": "pasar_ramai",
+  "text": "Pedagang dan pembeli meramaikan pasar malam. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pedagang dan pembeli meramaikan pasar malam. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "pasar ramai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pasar_ramai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pasar_ramai-negative",
+  "template": "pasar_ramai",
+  "text": "Tidak ada kegiatan pasar ramai di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "bakar_sate-1",
+  "template": "bakar_sate",
+  "text": "Pedagang mengipas sate di atas panggangan berasap.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pedagang mengipas sate di atas panggangan berasap."
+   }
+  ],
+  "plan": {
+   "judul": "bakar sate",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bakar_sate",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bakar_sate-2",
+  "template": "bakar_sate",
+  "text": "Pedagang mengipas sate di atas panggangan berasap. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Pedagang mengipas sate di atas panggangan berasap. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "bakar sate",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bakar_sate",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bakar_sate-negative",
+  "template": "bakar_sate",
+  "text": "Tidak ada kegiatan bakar sate di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "dapur_memasak-1",
+  "template": "dapur_memasak",
+  "text": "Seorang bapak mengaduk masakan di panci yang beruap.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang bapak mengaduk masakan di panci yang beruap."
+   }
+  ],
+  "plan": {
+   "judul": "dapur memasak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "dapur_memasak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "dapur_memasak-2",
+  "template": "dapur_memasak",
+  "text": "Seorang bapak mengaduk masakan di panci yang beruap. Suasananya masih sama beberapa saat kemudian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Seorang bapak mengaduk masakan di panci yang beruap. Suasananya masih sama beberapa saat kemudian."
+   }
+  ],
+  "plan": {
+   "judul": "dapur memasak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "dapur_memasak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "dapur_memasak-negative",
+  "template": "dapur_memasak",
+  "text": "Tidak ada kegiatan dapur memasak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyapu_lantai-1",
+  "template": "menyapu_lantai",
+  "text": "Di dalam rumah, ia menyapu lantai.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia menyapu lantai."
+   }
+  ],
+  "plan": {
+   "judul": "menyapu lantai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyapu_lantai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyapu_lantai-2",
+  "template": "menyapu_lantai",
+  "text": "Ia mulai menyapu lantai, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyapu lantai, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyapu lantai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyapu_lantai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyapu_lantai-negative",
+  "template": "menyapu_lantai",
+  "text": "Tidak ada kegiatan menyapu lantai di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengepel_lantai-1",
+  "template": "mengepel_lantai",
+  "text": "Di dalam rumah, ia mengepel lantai.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia mengepel lantai."
+   }
+  ],
+  "plan": {
+   "judul": "mengepel lantai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengepel_lantai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengepel_lantai-2",
+  "template": "mengepel_lantai",
+  "text": "Ia mulai mengepel lantai, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengepel lantai, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengepel lantai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengepel_lantai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengepel_lantai-negative",
+  "template": "mengepel_lantai",
+  "text": "Tidak ada kegiatan mengepel lantai di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mencuci_piring-1",
+  "template": "mencuci_piring",
+  "text": "Di dapur, ia mencuci piring.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia mencuci piring."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci piring",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_piring",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_piring-2",
+  "template": "mencuci_piring",
+  "text": "Ia mulai mencuci piring, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mencuci piring, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci piring",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_piring",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_piring-negative",
+  "template": "mencuci_piring",
+  "text": "Tidak ada kegiatan mencuci piring di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mencuci_pakaian-1",
+  "template": "mencuci_pakaian",
+  "text": "Di sungai, ia mencuci pakaian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia mencuci pakaian."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_pakaian-2",
+  "template": "mencuci_pakaian",
+  "text": "Ia mulai mencuci pakaian, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mencuci pakaian, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_pakaian-negative",
+  "template": "mencuci_pakaian",
+  "text": "Tidak ada kegiatan mencuci pakaian di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menjemur_pakaian-1",
+  "template": "menjemur_pakaian",
+  "text": "Di teras, ia menjemur pakaian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia menjemur pakaian."
+   }
+  ],
+  "plan": {
+   "judul": "menjemur pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menjemur_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menjemur_pakaian-2",
+  "template": "menjemur_pakaian",
+  "text": "Ia mulai menjemur pakaian, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menjemur pakaian, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menjemur pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menjemur_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menjemur_pakaian-negative",
+  "template": "menjemur_pakaian",
+  "text": "Tidak ada kegiatan menjemur pakaian di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "melipat_pakaian-1",
+  "template": "melipat_pakaian",
+  "text": "Di dalam rumah, ia melipat pakaian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia melipat pakaian."
+   }
+  ],
+  "plan": {
+   "judul": "melipat pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "melipat_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "melipat_pakaian-2",
+  "template": "melipat_pakaian",
+  "text": "Ia mulai melipat pakaian, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai melipat pakaian, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "melipat pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "melipat_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "melipat_pakaian-negative",
+  "template": "melipat_pakaian",
+  "text": "Tidak ada kegiatan melipat pakaian di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menidurkan_anak-1",
+  "template": "menidurkan_anak",
+  "text": "Di kamar, ia menidurkan anak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kamar, ia menidurkan anak."
+   }
+  ],
+  "plan": {
+   "judul": "menidurkan anak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menidurkan_anak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menidurkan_anak-2",
+  "template": "menidurkan_anak",
+  "text": "Ia mulai menidurkan anak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menidurkan anak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menidurkan anak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menidurkan_anak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menidurkan_anak-negative",
+  "template": "menidurkan_anak",
+  "text": "Tidak ada kegiatan menidurkan anak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membangunkan_orang-1",
+  "template": "membangunkan_orang",
+  "text": "Di kamar, ia membangunkan orang tidur.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kamar, ia membangunkan orang tidur."
+   }
+  ],
+  "plan": {
+   "judul": "membangunkan orang tidur",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membangunkan_orang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membangunkan_orang-2",
+  "template": "membangunkan_orang",
+  "text": "Ia mulai membangunkan orang tidur, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membangunkan orang tidur, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membangunkan orang tidur",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membangunkan_orang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membangunkan_orang-negative",
+  "template": "membangunkan_orang",
+  "text": "Tidak ada kegiatan membangunkan orang tidur di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membuka_pintu-1",
+  "template": "membuka_pintu",
+  "text": "Di teras, ia membuka pintu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia membuka pintu."
+   }
+  ],
+  "plan": {
+   "judul": "membuka pintu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_pintu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_pintu-2",
+  "template": "membuka_pintu",
+  "text": "Ia mulai membuka pintu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membuka pintu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membuka pintu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_pintu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_pintu-negative",
+  "template": "membuka_pintu",
+  "text": "Tidak ada kegiatan membuka pintu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengunci_pintu-1",
+  "template": "mengunci_pintu",
+  "text": "Di teras, ia mengunci pintu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia mengunci pintu."
+   }
+  ],
+  "plan": {
+   "judul": "mengunci pintu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengunci_pintu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengunci_pintu-2",
+  "template": "mengunci_pintu",
+  "text": "Ia mulai mengunci pintu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengunci pintu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengunci pintu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengunci_pintu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengunci_pintu-negative",
+  "template": "mengunci_pintu",
+  "text": "Tidak ada kegiatan mengunci pintu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memotong_sayuran-1",
+  "template": "memotong_sayuran",
+  "text": "Di dapur, ia memotong sayuran.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia memotong sayuran."
+   }
+  ],
+  "plan": {
+   "judul": "memotong sayuran",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memotong_sayuran",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memotong_sayuran-2",
+  "template": "memotong_sayuran",
+  "text": "Ia mulai memotong sayuran, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memotong sayuran, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memotong sayuran",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memotong_sayuran",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memotong_sayuran-negative",
+  "template": "memotong_sayuran",
+  "text": "Tidak ada kegiatan memotong sayuran di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menumbuk_bumbu-1",
+  "template": "menumbuk_bumbu",
+  "text": "Di dapur, ia menumbuk bumbu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia menumbuk bumbu."
+   }
+  ],
+  "plan": {
+   "judul": "menumbuk bumbu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menumbuk_bumbu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menumbuk_bumbu-2",
+  "template": "menumbuk_bumbu",
+  "text": "Ia mulai menumbuk bumbu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menumbuk bumbu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menumbuk bumbu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menumbuk_bumbu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menumbuk_bumbu-negative",
+  "template": "menumbuk_bumbu",
+  "text": "Tidak ada kegiatan menumbuk bumbu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menanak_nasi-1",
+  "template": "menanak_nasi",
+  "text": "Di dapur, ia menanak nasi.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia menanak nasi."
+   }
+  ],
+  "plan": {
+   "judul": "menanak nasi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menanak_nasi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menanak_nasi-2",
+  "template": "menanak_nasi",
+  "text": "Ia mulai menanak nasi, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menanak nasi, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menanak nasi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menanak_nasi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menanak_nasi-negative",
+  "template": "menanak_nasi",
+  "text": "Tidak ada kegiatan menanak nasi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menggoreng_makanan-1",
+  "template": "menggoreng_makanan",
+  "text": "Di dapur, ia menggoreng makanan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia menggoreng makanan."
+   }
+  ],
+  "plan": {
+   "judul": "menggoreng makanan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menggoreng_makanan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menggoreng_makanan-2",
+  "template": "menggoreng_makanan",
+  "text": "Ia mulai menggoreng makanan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menggoreng makanan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menggoreng makanan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menggoreng_makanan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menggoreng_makanan-negative",
+  "template": "menggoreng_makanan",
+  "text": "Tidak ada kegiatan menggoreng makanan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "merebus_air-1",
+  "template": "merebus_air",
+  "text": "Di dapur, ia merebus air.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia merebus air."
+   }
+  ],
+  "plan": {
+   "judul": "merebus air",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "merebus_air",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "merebus_air-2",
+  "template": "merebus_air",
+  "text": "Ia mulai merebus air, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai merebus air, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "merebus air",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "merebus_air",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "merebus_air-negative",
+  "template": "merebus_air",
+  "text": "Tidak ada kegiatan merebus air di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menuang_teh-1",
+  "template": "menuang_teh",
+  "text": "Di dapur, ia menuang teh.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia menuang teh."
+   }
+  ],
+  "plan": {
+   "judul": "menuang teh",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menuang_teh",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menuang_teh-2",
+  "template": "menuang_teh",
+  "text": "Ia mulai menuang teh, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menuang teh, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menuang teh",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menuang_teh",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menuang_teh-negative",
+  "template": "menuang_teh",
+  "text": "Tidak ada kegiatan menuang teh di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyajikan_makanan-1",
+  "template": "menyajikan_makanan",
+  "text": "Di dalam rumah, ia menyajikan makanan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia menyajikan makanan."
+   }
+  ],
+  "plan": {
+   "judul": "menyajikan makanan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyajikan_makanan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyajikan_makanan-2",
+  "template": "menyajikan_makanan",
+  "text": "Ia mulai menyajikan makanan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyajikan makanan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyajikan makanan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyajikan_makanan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyajikan_makanan-negative",
+  "template": "menyajikan_makanan",
+  "text": "Tidak ada kegiatan menyajikan makanan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "makan_bersama-1",
+  "template": "makan_bersama",
+  "text": "Di dalam rumah, ia makan bersama.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia makan bersama."
+   }
+  ],
+  "plan": {
+   "judul": "makan bersama",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "makan_bersama",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "makan_bersama-2",
+  "template": "makan_bersama",
+  "text": "Ia mulai makan bersama, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai makan bersama, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "makan bersama",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "makan_bersama",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "makan_bersama-negative",
+  "template": "makan_bersama",
+  "text": "Tidak ada kegiatan makan bersama di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mencuci_beras-1",
+  "template": "mencuci_beras",
+  "text": "Di dapur, ia mencuci beras.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dapur, ia mencuci beras."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci beras",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_beras",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_beras-2",
+  "template": "mencuci_beras",
+  "text": "Ia mulai mencuci beras, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mencuci beras, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci beras",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_beras",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_beras-negative",
+  "template": "mencuci_beras",
+  "text": "Tidak ada kegiatan mencuci beras di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membuka_bungkusan-1",
+  "template": "membuka_bungkusan",
+  "text": "Di dalam rumah, ia membuka bungkusan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia membuka bungkusan."
+   }
+  ],
+  "plan": {
+   "judul": "membuka bungkusan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_bungkusan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_bungkusan-2",
+  "template": "membuka_bungkusan",
+  "text": "Ia mulai membuka bungkusan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membuka bungkusan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membuka bungkusan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_bungkusan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_bungkusan-negative",
+  "template": "membuka_bungkusan",
+  "text": "Tidak ada kegiatan membuka bungkusan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membuka_lapak-1",
+  "template": "membuka_lapak",
+  "text": "Di pasar, ia membuka lapak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia membuka lapak."
+   }
+  ],
+  "plan": {
+   "judul": "membuka lapak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_lapak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_lapak-2",
+  "template": "membuka_lapak",
+  "text": "Ia mulai membuka lapak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membuka lapak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membuka lapak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_lapak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_lapak-negative",
+  "template": "membuka_lapak",
+  "text": "Tidak ada kegiatan membuka lapak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menutup_lapak-1",
+  "template": "menutup_lapak",
+  "text": "Di pasar, ia menutup lapak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia menutup lapak."
+   }
+  ],
+  "plan": {
+   "judul": "menutup lapak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menutup_lapak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menutup_lapak-2",
+  "template": "menutup_lapak",
+  "text": "Ia mulai menutup lapak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menutup lapak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menutup lapak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menutup_lapak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menutup_lapak-negative",
+  "template": "menutup_lapak",
+  "text": "Tidak ada kegiatan menutup lapak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menimbang_dagangan-1",
+  "template": "menimbang_dagangan",
+  "text": "Di pasar, ia menimbang dagangan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia menimbang dagangan."
+   }
+  ],
+  "plan": {
+   "judul": "menimbang dagangan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menimbang_dagangan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menimbang_dagangan-2",
+  "template": "menimbang_dagangan",
+  "text": "Ia mulai menimbang dagangan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menimbang dagangan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menimbang dagangan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menimbang_dagangan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menimbang_dagangan-negative",
+  "template": "menimbang_dagangan",
+  "text": "Tidak ada kegiatan menimbang dagangan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "tawar_menawar-1",
+  "template": "tawar_menawar",
+  "text": "Di pasar, ia tawar menawar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia tawar menawar."
+   }
+  ],
+  "plan": {
+   "judul": "tawar menawar",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "tawar_menawar",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "tawar_menawar-2",
+  "template": "tawar_menawar",
+  "text": "Ia mulai tawar menawar, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai tawar menawar, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "tawar menawar",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "tawar_menawar",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "tawar_menawar-negative",
+  "template": "tawar_menawar",
+  "text": "Tidak ada kegiatan tawar menawar di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membungkus_belanjaan-1",
+  "template": "membungkus_belanjaan",
+  "text": "Di pasar, ia membungkus belanjaan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia membungkus belanjaan."
+   }
+  ],
+  "plan": {
+   "judul": "membungkus belanjaan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membungkus_belanjaan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membungkus_belanjaan-2",
+  "template": "membungkus_belanjaan",
+  "text": "Ia mulai membungkus belanjaan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membungkus belanjaan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membungkus belanjaan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membungkus_belanjaan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membungkus_belanjaan-negative",
+  "template": "membungkus_belanjaan",
+  "text": "Tidak ada kegiatan membungkus belanjaan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyerahkan_belanjaan-1",
+  "template": "menyerahkan_belanjaan",
+  "text": "Di pasar, ia menyerahkan belanjaan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia menyerahkan belanjaan."
+   }
+  ],
+  "plan": {
+   "judul": "menyerahkan belanjaan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyerahkan_belanjaan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyerahkan_belanjaan-2",
+  "template": "menyerahkan_belanjaan",
+  "text": "Ia mulai menyerahkan belanjaan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyerahkan belanjaan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyerahkan belanjaan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyerahkan_belanjaan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyerahkan_belanjaan-negative",
+  "template": "menyerahkan_belanjaan",
+  "text": "Tidak ada kegiatan menyerahkan belanjaan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membayar_kembalian-1",
+  "template": "membayar_kembalian",
+  "text": "Di pasar, ia membayar dan menerima kembalian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia membayar dan menerima kembalian."
+   }
+  ],
+  "plan": {
+   "judul": "membayar dan menerima kembalian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membayar_kembalian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membayar_kembalian-2",
+  "template": "membayar_kembalian",
+  "text": "Ia mulai membayar dan menerima kembalian, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membayar dan menerima kembalian, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membayar dan menerima kembalian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membayar_kembalian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membayar_kembalian-negative",
+  "template": "membayar_kembalian",
+  "text": "Tidak ada kegiatan membayar dan menerima kembalian di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mendorong_gerobak-1",
+  "template": "mendorong_gerobak",
+  "text": "Di jalan, ia mendorong gerobak jualan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia mendorong gerobak jualan."
+   }
+  ],
+  "plan": {
+   "judul": "mendorong gerobak jualan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mendorong_gerobak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mendorong_gerobak-2",
+  "template": "mendorong_gerobak",
+  "text": "Ia mulai mendorong gerobak jualan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mendorong gerobak jualan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mendorong gerobak jualan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mendorong_gerobak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mendorong_gerobak-negative",
+  "template": "mendorong_gerobak",
+  "text": "Tidak ada kegiatan mendorong gerobak jualan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "melayani_warung_kopi-1",
+  "template": "melayani_warung_kopi",
+  "text": "Di pasar, ia melayani warung kopi.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia melayani warung kopi."
+   }
+  ],
+  "plan": {
+   "judul": "melayani warung kopi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "melayani_warung_kopi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "melayani_warung_kopi-2",
+  "template": "melayani_warung_kopi",
+  "text": "Ia mulai melayani warung kopi, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai melayani warung kopi, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "melayani warung kopi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "melayani_warung_kopi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "melayani_warung_kopi-negative",
+  "template": "melayani_warung_kopi",
+  "text": "Tidak ada kegiatan melayani warung kopi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menjahit_pakaian-1",
+  "template": "menjahit_pakaian",
+  "text": "Di dalam rumah, ia menjahit pakaian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia menjahit pakaian."
+   }
+  ],
+  "plan": {
+   "judul": "menjahit pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menjahit_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menjahit_pakaian-2",
+  "template": "menjahit_pakaian",
+  "text": "Ia mulai menjahit pakaian, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menjahit pakaian, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menjahit pakaian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menjahit_pakaian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menjahit_pakaian-negative",
+  "template": "menjahit_pakaian",
+  "text": "Tidak ada kegiatan menjahit pakaian di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mencangkul_tanah-1",
+  "template": "mencangkul_tanah",
+  "text": "Di sawah, ia mencangkul tanah.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sawah, ia mencangkul tanah."
+   }
+  ],
+  "plan": {
+   "judul": "mencangkul tanah",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencangkul_tanah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencangkul_tanah-2",
+  "template": "mencangkul_tanah",
+  "text": "Ia mulai mencangkul tanah, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mencangkul tanah, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mencangkul tanah",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencangkul_tanah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencangkul_tanah-negative",
+  "template": "mencangkul_tanah",
+  "text": "Tidak ada kegiatan mencangkul tanah di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membajak_sawah-1",
+  "template": "membajak_sawah",
+  "text": "Di sawah, ia membajak sawah.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sawah, ia membajak sawah."
+   }
+  ],
+  "plan": {
+   "judul": "membajak sawah",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membajak_sawah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membajak_sawah-2",
+  "template": "membajak_sawah",
+  "text": "Ia mulai membajak sawah, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membajak sawah, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membajak sawah",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membajak_sawah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membajak_sawah-negative",
+  "template": "membajak_sawah",
+  "text": "Tidak ada kegiatan membajak sawah di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menanam_padi-1",
+  "template": "menanam_padi",
+  "text": "Di sawah, ia menanam padi.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sawah, ia menanam padi."
+   }
+  ],
+  "plan": {
+   "judul": "menanam padi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menanam_padi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menanam_padi-2",
+  "template": "menanam_padi",
+  "text": "Ia mulai menanam padi, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menanam padi, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menanam padi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menanam_padi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menanam_padi-negative",
+  "template": "menanam_padi",
+  "text": "Tidak ada kegiatan menanam padi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyiangi_tanaman-1",
+  "template": "menyiangi_tanaman",
+  "text": "Di kebun, ia menyiangi tanaman.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kebun, ia menyiangi tanaman."
+   }
+  ],
+  "plan": {
+   "judul": "menyiangi tanaman",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyiangi_tanaman",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyiangi_tanaman-2",
+  "template": "menyiangi_tanaman",
+  "text": "Ia mulai menyiangi tanaman, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyiangi tanaman, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyiangi tanaman",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyiangi_tanaman",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyiangi_tanaman-negative",
+  "template": "menyiangi_tanaman",
+  "text": "Tidak ada kegiatan menyiangi tanaman di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memanen_padi-1",
+  "template": "memanen_padi",
+  "text": "Di sawah, ia memanen padi.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sawah, ia memanen padi."
+   }
+  ],
+  "plan": {
+   "judul": "memanen padi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memanen_padi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memanen_padi-2",
+  "template": "memanen_padi",
+  "text": "Ia mulai memanen padi, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memanen padi, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memanen padi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memanen_padi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memanen_padi-negative",
+  "template": "memanen_padi",
+  "text": "Tidak ada kegiatan memanen padi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "merontokkan_padi-1",
+  "template": "merontokkan_padi",
+  "text": "Di sawah, ia merontokkan padi.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sawah, ia merontokkan padi."
+   }
+  ],
+  "plan": {
+   "judul": "merontokkan padi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "merontokkan_padi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "merontokkan_padi-2",
+  "template": "merontokkan_padi",
+  "text": "Ia mulai merontokkan padi, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai merontokkan padi, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "merontokkan padi",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "merontokkan_padi",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "merontokkan_padi-negative",
+  "template": "merontokkan_padi",
+  "text": "Tidak ada kegiatan merontokkan padi di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memikul_panen-1",
+  "template": "memikul_panen",
+  "text": "Di sawah, ia memikul hasil panen.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sawah, ia memikul hasil panen."
+   }
+  ],
+  "plan": {
+   "judul": "memikul hasil panen",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memikul_panen",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memikul_panen-2",
+  "template": "memikul_panen",
+  "text": "Ia mulai memikul hasil panen, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memikul hasil panen, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memikul hasil panen",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memikul_panen",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memikul_panen-negative",
+  "template": "memikul_panen",
+  "text": "Tidak ada kegiatan memikul hasil panen di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyadap_nira-1",
+  "template": "menyadap_nira",
+  "text": "Di kebun, ia menyadap nira.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kebun, ia menyadap nira."
+   }
+  ],
+  "plan": {
+   "judul": "menyadap nira",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyadap_nira",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyadap_nira-2",
+  "template": "menyadap_nira",
+  "text": "Ia mulai menyadap nira, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyadap nira, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyadap nira",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyadap_nira",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyadap_nira-negative",
+  "template": "menyadap_nira",
+  "text": "Tidak ada kegiatan menyadap nira di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memetik_buah-1",
+  "template": "memetik_buah",
+  "text": "Di kebun, ia memetik buah.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kebun, ia memetik buah."
+   }
+  ],
+  "plan": {
+   "judul": "memetik buah",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memetik_buah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memetik_buah-2",
+  "template": "memetik_buah",
+  "text": "Ia mulai memetik buah, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memetik buah, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memetik buah",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memetik_buah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memetik_buah-negative",
+  "template": "memetik_buah",
+  "text": "Tidak ada kegiatan memetik buah di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyiram_kebun-1",
+  "template": "menyiram_kebun",
+  "text": "Di kebun, ia menyiram kebun.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kebun, ia menyiram kebun."
+   }
+  ],
+  "plan": {
+   "judul": "menyiram kebun",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyiram_kebun",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyiram_kebun-2",
+  "template": "menyiram_kebun",
+  "text": "Ia mulai menyiram kebun, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyiram kebun, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyiram kebun",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyiram_kebun",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyiram_kebun-negative",
+  "template": "menyiram_kebun",
+  "text": "Tidak ada kegiatan menyiram kebun di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menimba_air-1",
+  "template": "menimba_air",
+  "text": "Di sumur, ia menimba air.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sumur, ia menimba air."
+   }
+  ],
+  "plan": {
+   "judul": "menimba air",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menimba_air",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menimba_air-2",
+  "template": "menimba_air",
+  "text": "Ia mulai menimba air, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menimba air, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menimba air",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menimba_air",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menimba_air-negative",
+  "template": "menimba_air",
+  "text": "Tidak ada kegiatan menimba air di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengangkut_ember-1",
+  "template": "mengangkut_ember",
+  "text": "Di jalan, ia mengangkut ember.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia mengangkut ember."
+   }
+  ],
+  "plan": {
+   "judul": "mengangkut ember",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengangkut_ember",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengangkut_ember-2",
+  "template": "mengangkut_ember",
+  "text": "Ia mulai mengangkut ember, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengangkut ember, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengangkut ember",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengangkut_ember",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengangkut_ember-negative",
+  "template": "mengangkut_ember",
+  "text": "Tidak ada kegiatan mengangkut ember di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mencuci_sungai-1",
+  "template": "mencuci_sungai",
+  "text": "Di sungai, ia mencuci di sungai.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia mencuci di sungai."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci di sungai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_sungai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_sungai-2",
+  "template": "mencuci_sungai",
+  "text": "Ia mulai mencuci di sungai, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mencuci di sungai, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mencuci di sungai",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencuci_sungai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencuci_sungai-negative",
+  "template": "mencuci_sungai",
+  "text": "Tidak ada kegiatan mencuci di sungai di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memancing-1",
+  "template": "memancing",
+  "text": "Di sungai, ia memancing ikan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia memancing ikan."
+   }
+  ],
+  "plan": {
+   "judul": "memancing ikan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memancing",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memancing-2",
+  "template": "memancing",
+  "text": "Ia mulai memancing ikan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memancing ikan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memancing ikan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memancing",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memancing-negative",
+  "template": "memancing",
+  "text": "Tidak ada kegiatan memancing ikan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menebar_jala-1",
+  "template": "menebar_jala",
+  "text": "Di sungai, ia menebar jala.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia menebar jala."
+   }
+  ],
+  "plan": {
+   "judul": "menebar jala",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menebar_jala",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menebar_jala-2",
+  "template": "menebar_jala",
+  "text": "Ia mulai menebar jala, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menebar jala, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menebar jala",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menebar_jala",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menebar_jala-negative",
+  "template": "menebar_jala",
+  "text": "Tidak ada kegiatan menebar jala di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mendayung_perahu-1",
+  "template": "mendayung_perahu",
+  "text": "Di sungai, ia mendayung perahu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia mendayung perahu."
+   }
+  ],
+  "plan": {
+   "judul": "mendayung perahu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mendayung_perahu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mendayung_perahu-2",
+  "template": "mendayung_perahu",
+  "text": "Ia mulai mendayung perahu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mendayung perahu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mendayung perahu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mendayung_perahu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mendayung_perahu-negative",
+  "template": "mendayung_perahu",
+  "text": "Tidak ada kegiatan mendayung perahu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyeberangi_titian-1",
+  "template": "menyeberangi_titian",
+  "text": "Di sungai, ia menyeberangi titian.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia menyeberangi titian."
+   }
+  ],
+  "plan": {
+   "judul": "menyeberangi titian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyeberangi_titian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyeberangi_titian-2",
+  "template": "menyeberangi_titian",
+  "text": "Ia mulai menyeberangi titian, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyeberangi titian, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyeberangi titian",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyeberangi_titian",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyeberangi_titian-negative",
+  "template": "menyeberangi_titian",
+  "text": "Tidak ada kegiatan menyeberangi titian di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memberi_makan_ayam-1",
+  "template": "memberi_makan_ayam",
+  "text": "Di kampung, ia memberi makan ayam.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kampung, ia memberi makan ayam."
+   }
+  ],
+  "plan": {
+   "judul": "memberi makan ayam",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memberi_makan_ayam",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memberi_makan_ayam-2",
+  "template": "memberi_makan_ayam",
+  "text": "Ia mulai memberi makan ayam, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memberi makan ayam, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memberi makan ayam",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memberi_makan_ayam",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memberi_makan_ayam-negative",
+  "template": "memberi_makan_ayam",
+  "text": "Tidak ada kegiatan memberi makan ayam di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menggiring_kambing-1",
+  "template": "menggiring_kambing",
+  "text": "Di kampung, ia menggiring kambing.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kampung, ia menggiring kambing."
+   }
+  ],
+  "plan": {
+   "judul": "menggiring kambing",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menggiring_kambing",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menggiring_kambing-2",
+  "template": "menggiring_kambing",
+  "text": "Ia mulai menggiring kambing, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menggiring kambing, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menggiring kambing",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menggiring_kambing",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menggiring_kambing-negative",
+  "template": "menggiring_kambing",
+  "text": "Tidak ada kegiatan menggiring kambing di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memandikan_kerbau-1",
+  "template": "memandikan_kerbau",
+  "text": "Di sungai, ia memandikan kerbau.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia memandikan kerbau."
+   }
+  ],
+  "plan": {
+   "judul": "memandikan kerbau",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memandikan_kerbau",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memandikan_kerbau-2",
+  "template": "memandikan_kerbau",
+  "text": "Ia mulai memandikan kerbau, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memandikan kerbau, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memandikan kerbau",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memandikan_kerbau",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memandikan_kerbau-negative",
+  "template": "memandikan_kerbau",
+  "text": "Tidak ada kegiatan memandikan kerbau di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "berjalan_obor-1",
+  "template": "berjalan_obor",
+  "text": "Di jalan, ia berjalan membawa obor.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia berjalan membawa obor."
+   }
+  ],
+  "plan": {
+   "judul": "berjalan membawa obor",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berjalan_obor",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berjalan_obor-2",
+  "template": "berjalan_obor",
+  "text": "Ia mulai berjalan membawa obor, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai berjalan membawa obor, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "berjalan membawa obor",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berjalan_obor",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berjalan_obor-negative",
+  "template": "berjalan_obor",
+  "text": "Tidak ada kegiatan berjalan membawa obor di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "berjalan_payung-1",
+  "template": "berjalan_payung",
+  "text": "Di jalan, ia berjalan dengan payung.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia berjalan dengan payung."
+   }
+  ],
+  "plan": {
+   "judul": "berjalan dengan payung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berjalan_payung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berjalan_payung-2",
+  "template": "berjalan_payung",
+  "text": "Ia mulai berjalan dengan payung, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai berjalan dengan payung, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "berjalan dengan payung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berjalan_payung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berjalan_payung-negative",
+  "template": "berjalan_payung",
+  "text": "Tidak ada kegiatan berjalan dengan payung di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "berjalan_pikulan-1",
+  "template": "berjalan_pikulan",
+  "text": "Di jalan, ia berjalan sambil memikul barang.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia berjalan sambil memikul barang."
+   }
+  ],
+  "plan": {
+   "judul": "berjalan sambil memikul barang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berjalan_pikulan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berjalan_pikulan-2",
+  "template": "berjalan_pikulan",
+  "text": "Ia mulai berjalan sambil memikul barang, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai berjalan sambil memikul barang, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "berjalan sambil memikul barang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berjalan_pikulan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berjalan_pikulan-negative",
+  "template": "berjalan_pikulan",
+  "text": "Tidak ada kegiatan berjalan sambil memikul barang di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "bersepeda-1",
+  "template": "bersepeda",
+  "text": "Di jalan, ia bersepeda.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia bersepeda."
+   }
+  ],
+  "plan": {
+   "judul": "bersepeda",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bersepeda",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bersepeda-2",
+  "template": "bersepeda",
+  "text": "Ia mulai bersepeda, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai bersepeda, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "bersepeda",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bersepeda",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bersepeda-negative",
+  "template": "bersepeda",
+  "text": "Tidak ada kegiatan bersepeda di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengayuh_becak-1",
+  "template": "mengayuh_becak",
+  "text": "Di jalan, ia mengayuh becak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia mengayuh becak."
+   }
+  ],
+  "plan": {
+   "judul": "mengayuh becak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengayuh_becak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengayuh_becak-2",
+  "template": "mengayuh_becak",
+  "text": "Ia mulai mengayuh becak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengayuh becak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengayuh becak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengayuh_becak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengayuh_becak-negative",
+  "template": "mengayuh_becak",
+  "text": "Tidak ada kegiatan mengayuh becak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengendarai_motor-1",
+  "template": "mengendarai_motor",
+  "text": "Di jalan, ia mengendarai motor.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia mengendarai motor."
+   }
+  ],
+  "plan": {
+   "judul": "mengendarai motor",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengendarai_motor",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengendarai_motor-2",
+  "template": "mengendarai_motor",
+  "text": "Ia mulai mengendarai motor, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengendarai motor, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengendarai motor",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengendarai_motor",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengendarai_motor-negative",
+  "template": "mengendarai_motor",
+  "text": "Tidak ada kegiatan mengendarai motor di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menuntun_motor-1",
+  "template": "menuntun_motor",
+  "text": "Di jalan, ia menuntun motor mogok.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia menuntun motor mogok."
+   }
+  ],
+  "plan": {
+   "judul": "menuntun motor mogok",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menuntun_motor",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menuntun_motor-2",
+  "template": "menuntun_motor",
+  "text": "Ia mulai menuntun motor mogok, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menuntun motor mogok, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menuntun motor mogok",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menuntun_motor",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menuntun_motor-negative",
+  "template": "menuntun_motor",
+  "text": "Tidak ada kegiatan menuntun motor mogok di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menunggu_angkutan-1",
+  "template": "menunggu_angkutan",
+  "text": "Di jalan, ia menunggu angkutan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia menunggu angkutan."
+   }
+  ],
+  "plan": {
+   "judul": "menunggu angkutan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menunggu_angkutan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menunggu_angkutan-2",
+  "template": "menunggu_angkutan",
+  "text": "Ia mulai menunggu angkutan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menunggu angkutan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menunggu angkutan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menunggu_angkutan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menunggu_angkutan-negative",
+  "template": "menunggu_angkutan",
+  "text": "Tidak ada kegiatan menunggu angkutan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "jembatan_gantung-1",
+  "template": "jembatan_gantung",
+  "text": "Di sungai, ia menyeberang jembatan gantung.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di sungai, ia menyeberang jembatan gantung."
+   }
+  ],
+  "plan": {
+   "judul": "menyeberang jembatan gantung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jembatan_gantung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jembatan_gantung-2",
+  "template": "jembatan_gantung",
+  "text": "Ia mulai menyeberang jembatan gantung, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyeberang jembatan gantung, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyeberang jembatan gantung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jembatan_gantung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jembatan_gantung-negative",
+  "template": "jembatan_gantung",
+  "text": "Tidak ada kegiatan menyeberang jembatan gantung di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "tersesat_simpang-1",
+  "template": "tersesat_simpang",
+  "text": "Di jalan, ia tersesat di persimpangan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia tersesat di persimpangan."
+   }
+  ],
+  "plan": {
+   "judul": "tersesat di persimpangan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "tersesat_simpang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "tersesat_simpang-2",
+  "template": "tersesat_simpang",
+  "text": "Ia mulai tersesat di persimpangan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai tersesat di persimpangan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "tersesat di persimpangan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "tersesat_simpang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "tersesat_simpang-negative",
+  "template": "tersesat_simpang",
+  "text": "Tidak ada kegiatan tersesat di persimpangan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "ronda_kelompok-1",
+  "template": "ronda_kelompok",
+  "text": "Di jalan, ia ronda berkelompok.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia ronda berkelompok."
+   }
+  ],
+  "plan": {
+   "judul": "ronda berkelompok",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "ronda_kelompok",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "ronda_kelompok-2",
+  "template": "ronda_kelompok",
+  "text": "Ia mulai ronda berkelompok, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai ronda berkelompok, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "ronda berkelompok",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "ronda_kelompok",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "ronda_kelompok-negative",
+  "template": "ronda_kelompok",
+  "text": "Tidak ada kegiatan ronda berkelompok di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memukul_kentongan-1",
+  "template": "memukul_kentongan",
+  "text": "Di kampung, ia memukul kentongan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kampung, ia memukul kentongan."
+   }
+  ],
+  "plan": {
+   "judul": "memukul kentongan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memukul_kentongan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memukul_kentongan-2",
+  "template": "memukul_kentongan",
+  "text": "Ia mulai memukul kentongan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memukul kentongan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memukul kentongan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memukul_kentongan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memukul_kentongan-negative",
+  "template": "memukul_kentongan",
+  "text": "Tidak ada kegiatan memukul kentongan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memperbaiki_pagar-1",
+  "template": "memperbaiki_pagar",
+  "text": "Di kampung, ia memperbaiki pagar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kampung, ia memperbaiki pagar."
+   }
+  ],
+  "plan": {
+   "judul": "memperbaiki pagar",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memperbaiki_pagar",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memperbaiki_pagar-2",
+  "template": "memperbaiki_pagar",
+  "text": "Ia mulai memperbaiki pagar, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memperbaiki pagar, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memperbaiki pagar",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memperbaiki_pagar",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memperbaiki_pagar-negative",
+  "template": "memperbaiki_pagar",
+  "text": "Tidak ada kegiatan memperbaiki pagar di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membelah_kayu-1",
+  "template": "membelah_kayu",
+  "text": "Di kebun, ia membelah kayu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kebun, ia membelah kayu."
+   }
+  ],
+  "plan": {
+   "judul": "membelah kayu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membelah_kayu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membelah_kayu-2",
+  "template": "membelah_kayu",
+  "text": "Ia mulai membelah kayu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membelah kayu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membelah kayu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membelah_kayu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membelah_kayu-negative",
+  "template": "membelah_kayu",
+  "text": "Tidak ada kegiatan membelah kayu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menganyam_bambu-1",
+  "template": "menganyam_bambu",
+  "text": "Di teras, ia menganyam bambu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia menganyam bambu."
+   }
+  ],
+  "plan": {
+   "judul": "menganyam bambu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menganyam_bambu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menganyam_bambu-2",
+  "template": "menganyam_bambu",
+  "text": "Ia mulai menganyam bambu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menganyam bambu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menganyam bambu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menganyam_bambu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menganyam_bambu-negative",
+  "template": "menganyam_bambu",
+  "text": "Tidak ada kegiatan menganyam bambu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kerja_bakti-1",
+  "template": "kerja_bakti",
+  "text": "Di kampung, ia kerja bakti.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kampung, ia kerja bakti."
+   }
+  ],
+  "plan": {
+   "judul": "kerja bakti",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kerja_bakti",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kerja_bakti-2",
+  "template": "kerja_bakti",
+  "text": "Ia mulai kerja bakti, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai kerja bakti, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "kerja bakti",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kerja_bakti",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kerja_bakti-negative",
+  "template": "kerja_bakti",
+  "text": "Tidak ada kegiatan kerja bakti di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "berbincang_teras-1",
+  "template": "berbincang_teras",
+  "text": "Di teras, ia berbincang di teras.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia berbincang di teras."
+   }
+  ],
+  "plan": {
+   "judul": "berbincang di teras",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berbincang_teras",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berbincang_teras-2",
+  "template": "berbincang_teras",
+  "text": "Ia mulai berbincang di teras, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai berbincang di teras, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "berbincang di teras",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berbincang_teras",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berbincang_teras-negative",
+  "template": "berbincang_teras",
+  "text": "Tidak ada kegiatan berbincang di teras di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menuntun_anak-1",
+  "template": "menuntun_anak",
+  "text": "Di jalan, ia menuntun anak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia menuntun anak."
+   }
+  ],
+  "plan": {
+   "judul": "menuntun anak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menuntun_anak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menuntun_anak-2",
+  "template": "menuntun_anak",
+  "text": "Ia mulai menuntun anak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menuntun anak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menuntun anak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menuntun_anak",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menuntun_anak-negative",
+  "template": "menuntun_anak",
+  "text": "Tidak ada kegiatan menuntun anak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menolong_orang-1",
+  "template": "menolong_orang",
+  "text": "Di jalan, ia menolong orang jatuh.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia menolong orang jatuh."
+   }
+  ],
+  "plan": {
+   "judul": "menolong orang jatuh",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menolong_orang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menolong_orang-2",
+  "template": "menolong_orang",
+  "text": "Ia mulai menolong orang jatuh, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menolong orang jatuh, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menolong orang jatuh",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menolong_orang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menolong_orang-negative",
+  "template": "menolong_orang",
+  "text": "Tidak ada kegiatan menolong orang jatuh di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membawa_keranda-1",
+  "template": "membawa_keranda",
+  "text": "Di jalan, ia membawa keranda.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia membawa keranda."
+   }
+  ],
+  "plan": {
+   "judul": "membawa keranda",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membawa_keranda",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membawa_keranda-2",
+  "template": "membawa_keranda",
+  "text": "Ia mulai membawa keranda, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membawa keranda, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membawa keranda",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membawa_keranda",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membawa_keranda-negative",
+  "template": "membawa_keranda",
+  "text": "Tidak ada kegiatan membawa keranda di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyalakan_lampu-1",
+  "template": "menyalakan_lampu",
+  "text": "Di dalam rumah, ia menyalakan lampu minyak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia menyalakan lampu minyak."
+   }
+  ],
+  "plan": {
+   "judul": "menyalakan lampu minyak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyalakan_lampu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyalakan_lampu-2",
+  "template": "menyalakan_lampu",
+  "text": "Ia mulai menyalakan lampu minyak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyalakan lampu minyak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyalakan lampu minyak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyalakan_lampu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyalakan_lampu-negative",
+  "template": "menyalakan_lampu",
+  "text": "Tidak ada kegiatan menyalakan lampu minyak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "meniup_lampu-1",
+  "template": "meniup_lampu",
+  "text": "Di dalam rumah, ia meniup lampu minyak.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia meniup lampu minyak."
+   }
+  ],
+  "plan": {
+   "judul": "meniup lampu minyak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "meniup_lampu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "meniup_lampu-2",
+  "template": "meniup_lampu",
+  "text": "Ia mulai meniup lampu minyak, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai meniup lampu minyak, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "meniup lampu minyak",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "meniup_lampu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "meniup_lampu-negative",
+  "template": "meniup_lampu",
+  "text": "Tidak ada kegiatan meniup lampu minyak di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyalakan_senter-1",
+  "template": "menyalakan_senter",
+  "text": "Di jalan, ia menyalakan senter.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia menyalakan senter."
+   }
+  ],
+  "plan": {
+   "judul": "menyalakan senter",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyalakan_senter",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyalakan_senter-2",
+  "template": "menyalakan_senter",
+  "text": "Ia mulai menyalakan senter, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyalakan senter, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyalakan senter",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyalakan_senter",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyalakan_senter-negative",
+  "template": "menyalakan_senter",
+  "text": "Tidak ada kegiatan menyalakan senter di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengganti_baterai-1",
+  "template": "mengganti_baterai",
+  "text": "Di teras, ia mengganti baterai senter.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia mengganti baterai senter."
+   }
+  ],
+  "plan": {
+   "judul": "mengganti baterai senter",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengganti_baterai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengganti_baterai-2",
+  "template": "mengganti_baterai",
+  "text": "Ia mulai mengganti baterai senter, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengganti baterai senter, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengganti baterai senter",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengganti_baterai",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengganti_baterai-negative",
+  "template": "mengganti_baterai",
+  "text": "Tidak ada kegiatan mengganti baterai senter di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyalakan_lilin-1",
+  "template": "menyalakan_lilin",
+  "text": "Di dalam rumah, ia menyalakan lilin.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia menyalakan lilin."
+   }
+  ],
+  "plan": {
+   "judul": "menyalakan lilin",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyalakan_lilin",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyalakan_lilin-2",
+  "template": "menyalakan_lilin",
+  "text": "Ia mulai menyalakan lilin, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyalakan lilin, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyalakan lilin",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyalakan_lilin",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyalakan_lilin-negative",
+  "template": "menyalakan_lilin",
+  "text": "Tidak ada kegiatan menyalakan lilin di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengangkat_telepon-1",
+  "template": "mengangkat_telepon",
+  "text": "Di dalam rumah, ia mengangkat telepon.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia mengangkat telepon."
+   }
+  ],
+  "plan": {
+   "judul": "mengangkat telepon",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengangkat_telepon",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengangkat_telepon-2",
+  "template": "mengangkat_telepon",
+  "text": "Ia mulai mengangkat telepon, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengangkat telepon, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengangkat telepon",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengangkat_telepon",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengangkat_telepon-negative",
+  "template": "mengangkat_telepon",
+  "text": "Tidak ada kegiatan mengangkat telepon di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membaca_pesan-1",
+  "template": "membaca_pesan",
+  "text": "Di teras, ia membaca pesan ponsel.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia membaca pesan ponsel."
+   }
+  ],
+  "plan": {
+   "judul": "membaca pesan ponsel",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membaca_pesan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membaca_pesan-2",
+  "template": "membaca_pesan",
+  "text": "Ia mulai membaca pesan ponsel, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membaca pesan ponsel, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membaca pesan ponsel",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membaca_pesan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membaca_pesan-negative",
+  "template": "membaca_pesan",
+  "text": "Tidak ada kegiatan membaca pesan ponsel di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membuka_surat-1",
+  "template": "membuka_surat",
+  "text": "Di dalam rumah, ia membuka surat.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia membuka surat."
+   }
+  ],
+  "plan": {
+   "judul": "membuka surat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_surat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_surat-2",
+  "template": "membuka_surat",
+  "text": "Ia mulai membuka surat, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membuka surat, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membuka surat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_surat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_surat-negative",
+  "template": "membuka_surat",
+  "text": "Tidak ada kegiatan membuka surat di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "memeriksa_foto-1",
+  "template": "memeriksa_foto",
+  "text": "Di dalam rumah, ia memeriksa foto lama.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia memeriksa foto lama."
+   }
+  ],
+  "plan": {
+   "judul": "memeriksa foto lama",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memeriksa_foto",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memeriksa_foto-2",
+  "template": "memeriksa_foto",
+  "text": "Ia mulai memeriksa foto lama, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai memeriksa foto lama, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "memeriksa foto lama",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "memeriksa_foto",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "memeriksa_foto-negative",
+  "template": "memeriksa_foto",
+  "text": "Tidak ada kegiatan memeriksa foto lama di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "membuka_peti-1",
+  "template": "membuka_peti",
+  "text": "Di dalam rumah, ia membuka peti.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia membuka peti."
+   }
+  ],
+  "plan": {
+   "judul": "membuka peti",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_peti",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_peti-2",
+  "template": "membuka_peti",
+  "text": "Ia mulai membuka peti, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai membuka peti, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "membuka peti",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "membuka_peti",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "membuka_peti-negative",
+  "template": "membuka_peti",
+  "text": "Tidak ada kegiatan membuka peti di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "berhenti_mendengar-1",
+  "template": "berhenti_mendengar",
+  "text": "Di jalan, ia berhenti mendengar suara.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia berhenti mendengar suara."
+   }
+  ],
+  "plan": {
+   "judul": "berhenti mendengar suara",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berhenti_mendengar",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berhenti_mendengar-2",
+  "template": "berhenti_mendengar",
+  "text": "Ia mulai berhenti mendengar suara, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai berhenti mendengar suara, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "berhenti mendengar suara",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berhenti_mendengar",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berhenti_mendengar-negative",
+  "template": "berhenti_mendengar",
+  "text": "Tidak ada kegiatan berhenti mendengar suara di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menoleh_belakang-1",
+  "template": "menoleh_belakang",
+  "text": "Di jalan, ia menoleh ke belakang.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia menoleh ke belakang."
+   }
+  ],
+  "plan": {
+   "judul": "menoleh ke belakang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menoleh_belakang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menoleh_belakang-2",
+  "template": "menoleh_belakang",
+  "text": "Ia mulai menoleh ke belakang, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menoleh ke belakang, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menoleh ke belakang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menoleh_belakang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menoleh_belakang-negative",
+  "template": "menoleh_belakang",
+  "text": "Tidak ada kegiatan menoleh ke belakang di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengintip_jendela-1",
+  "template": "mengintip_jendela",
+  "text": "Di teras, ia mengintip jendela.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia mengintip jendela."
+   }
+  ],
+  "plan": {
+   "judul": "mengintip jendela",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengintip_jendela",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengintip_jendela-2",
+  "template": "mengintip_jendela",
+  "text": "Ia mulai mengintip jendela, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengintip jendela, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengintip jendela",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengintip_jendela",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengintip_jendela-negative",
+  "template": "mengintip_jendela",
+  "text": "Tidak ada kegiatan mengintip jendela di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mengintip_pintu-1",
+  "template": "mengintip_pintu",
+  "text": "Di teras, ia mengintip celah pintu.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia mengintip celah pintu."
+   }
+  ],
+  "plan": {
+   "judul": "mengintip celah pintu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengintip_pintu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengintip_pintu-2",
+  "template": "mengintip_pintu",
+  "text": "Ia mulai mengintip celah pintu, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mengintip celah pintu, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mengintip celah pintu",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mengintip_pintu",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mengintip_pintu-negative",
+  "template": "mengintip_pintu",
+  "text": "Tidak ada kegiatan mengintip celah pintu di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "bersembunyi_lemari-1",
+  "template": "bersembunyi_lemari",
+  "text": "Di dalam rumah, ia bersembunyi di balik lemari.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia bersembunyi di balik lemari."
+   }
+  ],
+  "plan": {
+   "judul": "bersembunyi di balik lemari",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bersembunyi_lemari",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bersembunyi_lemari-2",
+  "template": "bersembunyi_lemari",
+  "text": "Ia mulai bersembunyi di balik lemari, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai bersembunyi di balik lemari, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "bersembunyi di balik lemari",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bersembunyi_lemari",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bersembunyi_lemari-negative",
+  "template": "bersembunyi_lemari",
+  "text": "Tidak ada kegiatan bersembunyi di balik lemari di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mencari_bawah_ranjang-1",
+  "template": "mencari_bawah_ranjang",
+  "text": "Di kamar, ia mencari di bawah ranjang.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kamar, ia mencari di bawah ranjang."
+   }
+  ],
+  "plan": {
+   "judul": "mencari di bawah ranjang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencari_bawah_ranjang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencari_bawah_ranjang-2",
+  "template": "mencari_bawah_ranjang",
+  "text": "Ia mulai mencari di bawah ranjang, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mencari di bawah ranjang, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mencari di bawah ranjang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mencari_bawah_ranjang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mencari_bawah_ranjang-negative",
+  "template": "mencari_bawah_ranjang",
+  "text": "Tidak ada kegiatan mencari di bawah ranjang di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "menyusuri_rumah-1",
+  "template": "menyusuri_rumah",
+  "text": "Di dalam rumah, ia menyusuri rumah dengan senter.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia menyusuri rumah dengan senter."
+   }
+  ],
+  "plan": {
+   "judul": "menyusuri rumah dengan senter",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyusuri_rumah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyusuri_rumah-2",
+  "template": "menyusuri_rumah",
+  "text": "Ia mulai menyusuri rumah dengan senter, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai menyusuri rumah dengan senter, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "menyusuri rumah dengan senter",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "menyusuri_rumah",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "menyusuri_rumah-negative",
+  "template": "menyusuri_rumah",
+  "text": "Tidak ada kegiatan menyusuri rumah dengan senter di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "mundur_ketakutan-1",
+  "template": "mundur_ketakutan",
+  "text": "Di jalan, ia mundur ketakutan.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia mundur ketakutan."
+   }
+  ],
+  "plan": {
+   "judul": "mundur ketakutan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mundur_ketakutan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mundur_ketakutan-2",
+  "template": "mundur_ketakutan",
+  "text": "Ia mulai mundur ketakutan, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai mundur ketakutan, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "mundur ketakutan",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "mundur_ketakutan",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "mundur_ketakutan-negative",
+  "template": "mundur_ketakutan",
+  "text": "Tidak ada kegiatan mundur ketakutan di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "tersandung_berlari-1",
+  "template": "tersandung_berlari",
+  "text": "Di jalan, ia tersandung saat berlari.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia tersandung saat berlari."
+   }
+  ],
+  "plan": {
+   "judul": "tersandung saat berlari",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "tersandung_berlari",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "tersandung_berlari-2",
+  "template": "tersandung_berlari",
+  "text": "Ia mulai tersandung saat berlari, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai tersandung saat berlari, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "tersandung saat berlari",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "tersandung_berlari",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "tersandung_berlari-negative",
+  "template": "tersandung_berlari",
+  "text": "Tidak ada kegiatan tersandung saat berlari di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "berpegangan_berlindung-1",
+  "template": "berpegangan_berlindung",
+  "text": "Di teras, ia berpegangan sambil berlindung.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia berpegangan sambil berlindung."
+   }
+  ],
+  "plan": {
+   "judul": "berpegangan sambil berlindung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berpegangan_berlindung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berpegangan_berlindung-2",
+  "template": "berpegangan_berlindung",
+  "text": "Ia mulai berpegangan sambil berlindung, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai berpegangan sambil berlindung, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "berpegangan sambil berlindung",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "berpegangan_berlindung",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "berpegangan_berlindung-negative",
+  "template": "berpegangan_berlindung",
+  "text": "Tidak ada kegiatan berpegangan sambil berlindung di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "bayangan_jendela-1",
+  "template": "bayangan_jendela",
+  "text": "Di teras, ia bayangan melintas jendela.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di teras, ia bayangan melintas jendela."
+   }
+  ],
+  "plan": {
+   "judul": "bayangan melintas jendela",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bayangan_jendela",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bayangan_jendela-2",
+  "template": "bayangan_jendela",
+  "text": "Ia mulai bayangan melintas jendela, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai bayangan melintas jendela, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "bayangan melintas jendela",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "bayangan_jendela",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "bayangan_jendela-negative",
+  "template": "bayangan_jendela",
+  "text": "Tidak ada kegiatan bayangan melintas jendela di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "pintu_sendiri-1",
+  "template": "pintu_sendiri",
+  "text": "Di dalam rumah, ia pintu terbuka sendiri.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia pintu terbuka sendiri."
+   }
+  ],
+  "plan": {
+   "judul": "pintu terbuka sendiri",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pintu_sendiri",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pintu_sendiri-2",
+  "template": "pintu_sendiri",
+  "text": "Ia mulai pintu terbuka sendiri, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai pintu terbuka sendiri, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "pintu terbuka sendiri",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pintu_sendiri",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pintu_sendiri-negative",
+  "template": "pintu_sendiri",
+  "text": "Tidak ada kegiatan pintu terbuka sendiri di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kursi_sendiri-1",
+  "template": "kursi_sendiri",
+  "text": "Di dalam rumah, ia kursi bergeser sendiri.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di dalam rumah, ia kursi bergeser sendiri."
+   }
+  ],
+  "plan": {
+   "judul": "kursi bergeser sendiri",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kursi_sendiri",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kursi_sendiri-2",
+  "template": "kursi_sendiri",
+  "text": "Ia mulai kursi bergeser sendiri, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai kursi bergeser sendiri, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "kursi bergeser sendiri",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kursi_sendiri",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kursi_sendiri-negative",
+  "template": "kursi_sendiri",
+  "text": "Tidak ada kegiatan kursi bergeser sendiri di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "ayunan_sendiri-1",
+  "template": "ayunan_sendiri",
+  "text": "Di kampung, ia ayunan bergerak sendiri.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kampung, ia ayunan bergerak sendiri."
+   }
+  ],
+  "plan": {
+   "judul": "ayunan bergerak sendiri",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "ayunan_sendiri",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "ayunan_sendiri-2",
+  "template": "ayunan_sendiri",
+  "text": "Ia mulai ayunan bergerak sendiri, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai ayunan bergerak sendiri, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "ayunan bergerak sendiri",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "ayunan_sendiri",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "ayunan_sendiri-negative",
+  "template": "ayunan_sendiri",
+  "text": "Tidak ada kegiatan ayunan bergerak sendiri di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "cermin_berbeda-1",
+  "template": "cermin_berbeda",
+  "text": "Di kamar, ia pantulan cermin berbeda.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kamar, ia pantulan cermin berbeda."
+   }
+  ],
+  "plan": {
+   "judul": "pantulan cermin berbeda",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "cermin_berbeda",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "cermin_berbeda-2",
+  "template": "cermin_berbeda",
+  "text": "Ia mulai pantulan cermin berbeda, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai pantulan cermin berbeda, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "pantulan cermin berbeda",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "cermin_berbeda",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "cermin_berbeda-negative",
+  "template": "cermin_berbeda",
+  "text": "Tidak ada kegiatan pantulan cermin berbeda di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "jejak_muncul-1",
+  "template": "jejak_muncul",
+  "text": "Di jalan, ia jejak kaki muncul.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di jalan, ia jejak kaki muncul."
+   }
+  ],
+  "plan": {
+   "judul": "jejak kaki muncul",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jejak_muncul",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jejak_muncul-2",
+  "template": "jejak_muncul",
+  "text": "Ia mulai jejak kaki muncul, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai jejak kaki muncul, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "jejak kaki muncul",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "jejak_muncul",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "jejak_muncul-negative",
+  "template": "jejak_muncul",
+  "text": "Tidak ada kegiatan jejak kaki muncul di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "sosok_pohon-1",
+  "template": "sosok_pohon",
+  "text": "Di hutan, ia sosok di balik pohon.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di hutan, ia sosok di balik pohon."
+   }
+  ],
+  "plan": {
+   "judul": "sosok di balik pohon",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "sosok_pohon",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "sosok_pohon-2",
+  "template": "sosok_pohon",
+  "text": "Ia mulai sosok di balik pohon, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai sosok di balik pohon, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "sosok di balik pohon",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "sosok_pohon",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "sosok_pohon-negative",
+  "template": "sosok_pohon",
+  "text": "Tidak ada kegiatan sosok di balik pohon di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "pocong_melompat-1",
+  "template": "pocong_melompat",
+  "text": "Di kuburan, ia pocong melompat.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di kuburan, ia pocong melompat."
+   }
+  ],
+  "plan": {
+   "judul": "pocong melompat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pocong_melompat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pocong_melompat-2",
+  "template": "pocong_melompat",
+  "text": "Ia mulai pocong melompat, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai pocong melompat, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "pocong melompat",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pocong_melompat",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pocong_melompat-negative",
+  "template": "pocong_melompat",
+  "text": "Tidak ada kegiatan pocong melompat di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "kuntilanak_turun-1",
+  "template": "kuntilanak_turun",
+  "text": "Di hutan, ia kuntilanak turun dari pohon.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di hutan, ia kuntilanak turun dari pohon."
+   }
+  ],
+  "plan": {
+   "judul": "kuntilanak turun dari pohon",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kuntilanak_turun",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kuntilanak_turun-2",
+  "template": "kuntilanak_turun",
+  "text": "Ia mulai kuntilanak turun dari pohon, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai kuntilanak turun dari pohon, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "kuntilanak turun dari pohon",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "kuntilanak_turun",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "kuntilanak_turun-negative",
+  "template": "kuntilanak_turun",
+  "text": "Tidak ada kegiatan kuntilanak turun dari pohon di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ },
+ {
+  "id": "pasar_menghilang-1",
+  "template": "pasar_menghilang",
+  "text": "Di pasar, ia pasar menghilang.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Di pasar, ia pasar menghilang."
+   }
+  ],
+  "plan": {
+   "judul": "pasar menghilang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pasar_menghilang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pasar_menghilang-2",
+  "template": "pasar_menghilang",
+  "text": "Ia mulai pasar menghilang, lalu berhenti ketika mendengar suara dari luar.",
+  "cues": [
+   {
+    "i": 0,
+    "start": 0,
+    "end": 6,
+    "text": "Ia mulai pasar menghilang, lalu berhenti ketika mendengar suara dari luar."
+   }
+  ],
+  "plan": {
+   "judul": "pasar menghilang",
+   "adegan": [
+    {
+     "dari": 0,
+     "sampai": 0,
+     "template": "pasar_menghilang",
+     "params": {},
+     "kamera": {
+      "gerak": "diam"
+     }
+    }
+   ],
+   "peran": []
+  },
+  "purpose": "Aksi dan perubahan objek harus terbaca dengan kamera diam.",
+  "status": "authored_pending_visual_review"
+ },
+ {
+  "id": "pasar_menghilang-negative",
+  "template": "pasar_menghilang",
+  "text": "Tidak ada kegiatan pasar menghilang di tempat itu.",
+  "negative": true,
+  "reason": "Penyebutan negatif bukan kejadian; pilih adegan sesuai yang benar-benar terlihat."
+ }
+]

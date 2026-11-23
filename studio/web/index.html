@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Horor Studio</title>
+<style>
+:root{--bg:#0d0907;--panel:#17110d;--line:#2c2119;--txt:#eadfcc;--mut:#9c8b74;--acc:#e3a35a;--red:#e0705e;--ok:#8fc48a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 Inter,system-ui,sans-serif}
+header{display:flex;align-items:center;gap:16px;padding:14px 22px;border-bottom:1px solid var(--line)}
+header h1{font:600 18px Georgia,serif;letter-spacing:3px;margin:0;color:var(--acc)}
+.pill{font-size:12px;padding:3px 9px;border-radius:99px;border:1px solid var(--line);color:var(--mut)}.pill.ok{color:var(--ok);border-color:#35502f}.pill.no{color:var(--red);border-color:#5a2a22}
+main{display:grid;grid-template-columns:360px 1fr;gap:18px;padding:18px 22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:16px}
+h2{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--mut);margin:0 0 10px}
+label{display:block;font-size:12px;color:var(--mut);margin:8px 0 3px}
+input,textarea,select{width:100%;background:#0f0b08;color:var(--txt);border:1px solid var(--line);border-radius:6px;padding:7px 8px;font:inherit}
+textarea{min-height:120px;resize:vertical}
+button{background:var(--acc);color:#1a1008;border:0;border-radius:6px;padding:8px 14px;font-weight:600;cursor:pointer}
+button.sec{background:transparent;color:var(--txt);border:1px solid var(--line)}button:disabled{opacity:.5;cursor:default}
+.jobs{max-height:60vh;overflow:auto}.job{padding:9px 10px;border-radius:7px;cursor:pointer;border:1px solid transparent}
+.job:hover,.job.on{background:#20170f;border-color:var(--line)}.job b{display:block;font-weight:600}.job small{color:var(--mut)}
+.st{font-size:11px;padding:1px 7px;border-radius:99px;background:#2a1f16;margin-left:6px}.st.selesai{color:var(--ok)}.st.gagal{color:var(--red)}.st.proses,.st.antri{color:var(--acc)}
+.bar{height:4px;background:#2a1f16;border-radius:2px;margin-top:5px}.bar i{display:block;height:100%;background:var(--acc);border-radius:2px}
+.grid{display:grid;grid-template-columns:300px 1fr;gap:16px}
+video{width:100%;border-radius:8px;background:#000}.sb{width:100%;border-radius:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid var(--line);padding:6px 5px;vertical-align:top;text-align:left}
+th{color:var(--mut);font-weight:500;font-size:12px}td select{min-width:150px}.params{display:flex;flex-wrap:wrap;gap:6px}
+.params span{display:inline-flex;align-items:center;gap:4px;background:#0f0b08;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px}
+.params input[type=number]{width:56px;padding:2px 4px}.params select{min-width:0;padding:2px 4px}.params input[type=text]{width:130px;padding:2px 4px}
+.params input[type=checkbox]{width:auto}.cue{color:var(--mut);font-size:12px}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+pre{white-space:pre-wrap;font-size:11px;color:var(--mut);max-height:220px;overflow:auto;background:#0f0b08;padding:8px;border-radius:6px}
+.cues div{font-size:12px;padding:2px 0}.cues .dialog{color:var(--acc)}.cues .seram{color:var(--red)}
+@media(max-width:900px){main{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+</style></head><body>
+<header><h1>HOROR STUDIO</h1><a href="/library">Pustaka adegan</a><span id="llm" class="pill">LLM …</span><span id="wh" class="pill">Whisper …</span></header>
+<main>
+<section>
+ <div class="card"><h2>Video baru</h2>
+  <form id="f">
+   <label for="audio-file">Audio voice over (MP3/WAV/M4A)</label><input id="audio-file" type="file" name="audio" accept="audio/*" required>
+   <label id="script-label" for="script">Naskah (disarankan — teks subtitle diambil dari sini)</label><textarea id="script" name="naskah" placeholder="Tempel naskah di sini, tag <break> boleh ikut."></textarea>
+   <label>Judul (opsional)</label><input name="judul">
+   <label>Catatan untuk sutradara AI (opsional)</label><input name="catatan" placeholder="mis. pakai kuburan & pocong di tengah">
+   <label>Gaya</label><select name="gaya" id="gaya"></select><p id="standar" class="cue"></p>
+   <label>Watermark</label><input name="watermark" id="wm">
+   <div class="row"><button id="go">Buat video</button><span id="up" class="cue"></span></div>
+  </form></div>
+ <div class="card"><h2>Riwayat</h2><div id="jobs" class="jobs"></div></div>
+</section>
+<section id="det"><div class="card"><span class="cue">Pilih job di kiri.</span></div></section>
+</main>
+<script>
+let INFO=null, CUR=null, DET=null;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+async function api(u,o){const r=await fetch(u,o);if(!r.ok)throw new Error((await r.json().catch(()=>({}))).error||r.status);return r.json()}
+async function init(){
+ INFO=await api('/api/info');
+ if(INFO.minimum_shots) $('#standar').textContent=`Setiap video memerlukan minimal ${INFO.minimum_shots} shot dan ${INFO.minimum_moments} momen visual berbeda.`;
+ $('#llm').textContent='LLM '+(INFO.llm?'terhubung':'tidak terhubung');$('#llm').className='pill '+(INFO.llm?'ok':'no');$('#llm').title=(INFO.llm_model||'')+' · effort '+(INFO.llm_reasoning_effort||'default');
+ $('#wh').textContent='Whisper '+(INFO.whisper?INFO.whisper_mode:'nonaktif');$('#wh').className='pill '+(INFO.whisper?'ok':'no');
+ $('#gaya').innerHTML=INFO.styles.map(s=>`<option ${s==INFO.default_style?'selected':''}>${s}</option>`).join('');$('#wm').value=INFO.watermark||'';
+ loadJobs();setInterval(loadJobs,3000);
+}
+$('#f').onsubmit=async e=>{e.preventDefault();$('#go').disabled=true;$('#up').textContent='mengunggah…';
+ try{const r=await api('/api/jobs',{method:'POST',body:new FormData($('#f'))});$('#up').textContent='masuk antrean';CUR=r.id;$('#f').reset();loadJobs();open_(r.id)}
+ catch(err){$('#up').textContent='gagal: '+err.message}$('#go').disabled=false;$('#wm').value=INFO.watermark||''};
+async function loadJobs(){
+ const js=await api('/api/jobs');
+ $('#jobs').innerHTML=js.map(j=>`<div class="job ${j.id==CUR?'on':''}" onclick="open_('${j.id}')"><b>${esc(j.title||j.id)}<span class="st ${j.status}">${j.status}</span></b>
+ <small>${j.id} · ${j.task}</small>${['proses','antri'].includes(j.status)?`<div class="bar"><i style="width:${Math.round(j.progress*100)}%"></i></div>`:''}</div>`).join('')||'<span class="cue">Belum ada.</span>';
+ const c=js.find(j=>j.id==CUR); if(c&&DET&&(c.status!=DET.status||Math.abs(c.progress-DET.progress)>0.05))open_(CUR,true);
+}
+async function open_(id,keep){CUR=id;const d=await api('/api/jobs/'+id);DET=d;render(d,keep)}
+function CAT(){return INFO.catalogs[(DET&&DET.style)||INFO.default_style]||INFO.catalog}
+function paramInputs(k,a){const spec=(CAT()[a.template]||{params:{}}).params;return Object.entries(spec).map(([p,s])=>{
+ const v=a.params[p]??s.default; const id=`p_${k}_${p}`;
+ if(s.type=='bool')return `<span>${p} <input type=checkbox id="${id}" ${v?'checked':''}></span>`;
+ if(s.type=='int')return `<span>${p} <input type=number id="${id}" min=${s.min} max=${s.max} value="${v??''}"></span>`;
+ if(s.type=='cue')return `<span>${p} <input type=number id="${id}" min=${a.dari} max=${a.sampai} value="${v??''}" placeholder="-"></span>`;
+ if(s.type=='enum')return `<span>${p} <select id="${id}">${s.values.map(x=>`<option ${x==v?'selected':''}>${x}</option>`).join('')}</select></span>`;
+ if(s.type=='list'||s.type=='obj')return `<span style="max-width:360px">${p} <input type=text id="${id}" value="${esc(JSON.stringify(v??(s.type=='list'?[]:null)))}" style="width:280px;font-family:monospace;font-size:11px"></span>`;
+ return `<span>${p} <input type=text id="${id}" value="${esc(v)}"></span>`}).join('')}
+function render(d,keep){
+ const busy=['proses','antri'].includes(d.status); const t=Date.now();
+ let h=`<div class="card"><h2>${esc(d.title||d.id)} <span class="st ${d.status}">${d.status}</span></h2>${d.error?`<p style="color:var(--red)">${esc(d.error)}</p>`:''}
+ ${busy?`<div class="bar"><i style="width:${Math.round(d.progress*100)}%"></i></div>`:''}
+ <div class="grid"><div>${d.has_audio?`<p class="cue">Audio unggahan</p><audio controls style="width:100%" src="/files/${d.id}/input.mp3"></audio><a href="/files/${d.id}/input.mp3" download>Unduh audio</a>`:''}${d.has_video?`<video controls src="/files/${d.id}/${d.video_file||"final.mp4"}?${t}"></video><div class="row"><a href="/files/${d.id}/${d.video_file||"final.mp4"}" download><button class="sec">${d.video_file==='preview.mp4'?'Unduh draft':'Unduh MP4'}</button></a><a href="/files/${d.id}/page.html" target=_blank><button class="sec">Halaman animasi</button></a></div>`:''}
+ ${d.has_storyboard?`<p class="cue">Storyboard</p><img class="sb" src="/files/${d.id}/storyboard.jpg?${t}">`:''}</div><div>`;
+ if(d.quality_report?.variation){const v=d.quality_report.variation; h+=`<p><b>${v.shots} shot · ${v.moments} momen visual</b> terkonfirmasi</p>`;}
+ if(d.has_storyboard && d.scenes?.some(s=>s.shots?.length)){
+  h+='<details><summary>Gambar kunci per shot</summary>'+d.scenes.flatMap(s=>s.shots||[]).map(shot=>
+   `<p><b>Shot ${shot.no}</b> · ${esc(shot.view)} · ${shot.start.toFixed(2)}–${shot.end.toFixed(2)} s</p>`+
+   shot.moments.map(m=>`<div><a href="/files/${d.id}/keyframes/${encodeURIComponent(m.id)}.jpg" target="_blank">${m.t.toFixed(2)} s</a> · ${esc(d.quality_report?.variation?.confirmed?.[m.id]||m.focus)}</div>`).join('')
+  ).join('')+'</details>';
+ }
+ if(d.status==='draft_review')h+=`<p>Draft belum lolos pemeriksaan.</p><button onclick="act('repair')">Perbaiki adegan bermasalah</button>`;
+ if(d.plan){const cat=Object.keys(CAT());
+  h+=`<h2>Rencana adegan <span class="cue">(sumber: ${d.plan.sumber||'-'})</span></h2><label>Judul</label><input id="pj" value="${esc(d.plan.judul)}">
+  <table><tr><th>#</th><th>Cue</th><th>Template &amp; kamera</th><th>Parameter</th></tr>`+
+  d.plan.adegan.map((a,k)=>{const sc=d.scenes&&d.scenes[k];return `<tr><td>${k+1}</td><td class="cue">${a.dari}–${a.sampai}${sc?`<br>${sc.start.toFixed(1)}–${sc.end.toFixed(1)}s`:''}<br>${esc(d.cues.cues[a.dari].text.slice(0,48))}</td>
+  <td><select id="t_${k}" onchange="delete DET.plan.adegan[${k}].momen;DET.plan.adegan[${k}].template=this.value;DET.plan.adegan[${k}].params={};render(DET,1)">${cat.map(c=>`<option ${c==a.template?'selected':''}>${c}</option>`).join('')}</select><br>
+  <select id="g_${k}">${['maju','mundur','geser_kiri','geser_kanan','diam','naik'].map(g=>`<option ${g==a.kamera.gerak?'selected':''}>${g}</option>`).join('')}</select></td>
+  <td><div class="params">${paramInputs(k,a)}</div></td></tr>`}).join('')+`</table>
+  <div class="row"><button onclick="savePlan()" ${busy?'disabled':''}>Simpan &amp; render</button>
+  <input id="ins" placeholder="Instruksi ke AI, mis. adegan 4 jadi sumur dengan kuntilanak" style="flex:1;min-width:220px"><button class="sec" onclick="act('edit',{instruction:$('#ins').value})" ${busy?'disabled':''}>Ubah dengan AI</button>
+  <button class="sec" onclick="act('replan',{extra:$('#ins').value})" ${busy?'disabled':''}>Susun ulang semua</button></div>`;}
+ if(d.cues)h+=`<h2 style="margin-top:16px">Cue (${d.cues.method})</h2><div class="cues">`+d.cues.cues.map(c=>{const r=(d.plan?.peran||[]).find(p=>p.i==c.i)?.peran||c.role;return `<div class="${r}">#${c.i} ${c.start.toFixed(2)}–${c.end.toFixed(2)} ${esc(c.text)}</div>`}).join('')+'</div>';
+ h+=`<h2 style="margin-top:16px">Log</h2><pre>${esc(d.log)}</pre></div></div></div>`;
+ $('#det').innerHTML=h; document.querySelectorAll('.job').forEach(e=>e.classList.toggle('on',e.onclick.toString().includes(d.id)));
+}
+function collect(){const p=JSON.parse(JSON.stringify(DET.plan));p.judul=$('#pj').value;
+ p.adegan.forEach((a,k)=>{a.template=$('#t_'+k).value;a.kamera={gerak:$('#g_'+k).value};const spec=(CAT()[a.template]||{params:{}}).params;a.params={};
+  for(const [n,s] of Object.entries(spec)){const el=$(`#p_${k}_${n}`);if(!el)continue;
+   if(s.type=='bool')a.params[n]=el.checked;else if(s.type=='int'||s.type=='cue'){if(el.value!=='')a.params[n]=parseInt(el.value)}else if(s.type=='list'||s.type=='obj'){try{a.params[n]=JSON.parse(el.value)}catch(e){}}else a.params[n]=el.value}});return p}
+async function savePlan(){await api(`/api/jobs/${DET.id}/plan`,{method:'POST',body:JSON.stringify({plan:collect()})});open_(DET.id)}
+async function act(a,b){await api(`/api/jobs/${DET.id}/${a}`,{method:'POST',body:JSON.stringify(b||{})});open_(DET.id)}
+init();
+</script></body></html>

@@ -1,0 +1,1505 @@
+{
+ "pembuka": {
+  "desc": "Establishing shot lebar diorama: langit biru, rumah/sawah/kota, potongan tanah di bawah. Untuk kalimat pembuka/hook dan memperkenalkan topik.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "objek": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk",
+     "cofferdam",
+     "tiang_jembatan",
+     "jembatan",
+     "pompa_air",
+     "lembaran_baja"
+    ],
+    "default": "tidak_ada",
+    "desc": "benda utama di tengah"
+   },
+   "tokoh": {
+    "type": "bool",
+    "default": true,
+    "desc": "tampilkan tokoh berdiri"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "aktivitas": {
+  "desc": "Tokoh low-poly (baju oranye, caping) melakukan kegiatan. Untuk kalimat 'kamu menggali/memanjat/mengangkat/menanam...' dan cara kerja manual.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "aksi": {
+    "type": "enum",
+    "values": [
+     "berdiri",
+     "jalan",
+     "gali",
+     "panjat",
+     "angkat",
+     "tanam",
+     "dorong",
+     "tunjuk",
+     "kaget",
+     "pikir",
+     "jongkok",
+     "lapor"
+    ],
+    "default": "berdiri",
+    "desc": "gali=mencangkul lubang; panjat=naik tangga ke tiang; angkat=memikul balok; tanam=menanam bibit; lapor=menjelaskan dengan tangan"
+   },
+   "aksi_cue": {
+    "type": "cue",
+    "desc": "cue saat aksi mendadak (untuk kaget)"
+   },
+   "objek": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk",
+     "cofferdam",
+     "tiang_jembatan",
+     "jembatan",
+     "pompa_air",
+     "lembaran_baja"
+    ],
+    "default": "tidak_ada",
+    "desc": "benda di samping tokoh (untuk panjat: jenis tiang)"
+   },
+   "jarak": {
+    "type": "enum",
+    "values": [
+     "dekat",
+     "sedang",
+     "lebar"
+    ],
+    "default": "sedang"
+   },
+   "caping": {
+    "type": "bool",
+    "default": true
+   },
+   "hujan": {
+    "type": "bool",
+    "default": false
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "bawah_tanah": {
+  "desc": "Close-up potongan tanah berlapis (cross-section) memperlihatkan apa yang ada DI DALAM tanah. Untuk menjelaskan bagian yang tertanam, akar, pipa, fondasi, air tanah, lubang, terowongan.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "isi": {
+    "type": "enum",
+    "values": [
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "pipa",
+     "akar",
+     "fondasi",
+     "air_tanah",
+     "lubang",
+     "terowongan",
+     "batu"
+    ],
+    "default": "tiang_bambu"
+   },
+   "efek": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "lembap",
+     "lapuk",
+     "rembes",
+     "amblas"
+    ],
+    "default": "tidak_ada",
+    "desc": "lembap=titik air muncul; lapuk=tiang menghitam; rembes=air biru merembes; amblas=tiang turun & miring"
+   },
+   "solusi_cue": {
+    "type": "cue",
+    "desc": "terowongan: cue saat penyangga dipasang"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "masalah": {
+  "desc": "Sesuatu gagal: tiang rubuh, atap lorong runtuh, banjir, korsleting listrik, lapuk, kekeringan, hujan. Ada guncangan & teks bunyi (BRUK!). Untuk kalimat 'tapi...', 'masalahnya...'.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "kejadian": {
+    "type": "enum",
+    "values": [
+     "rubuh",
+     "runtuh",
+     "banjir",
+     "korsleting",
+     "lapuk",
+     "kekeringan",
+     "hujan"
+    ],
+    "default": "rubuh"
+   },
+   "kejadian_cue": {
+    "type": "cue",
+    "desc": "cue saat kejadian terjadi (kata 'rubuh/runtuh' diucapkan)"
+   },
+   "objek": {
+    "type": "enum",
+    "values": [
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "cofferdam",
+     "tiang_jembatan",
+     "jembatan",
+     "pompa_air",
+     "lembaran_baja"
+    ],
+    "default": "tiang_bambu",
+    "desc": "untuk rubuh/lapuk"
+   },
+   "bunyi": {
+    "type": "str",
+    "default": "BRUK!",
+    "desc": "teks bunyi komik (maks 8 huruf)"
+   },
+   "tokoh": {
+    "type": "bool",
+    "default": true
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   },
+   "hujan": {
+    "type": "bool",
+    "default": false
+   }
+  }
+ },
+ "detail": {
+  "desc": "Close-up satu benda di atas alas berputar dengan label penjelas (seperti diagram). Untuk menyebut NAMA benda/istilah dan bagian-bagiannya.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "benda": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk",
+     "cofferdam",
+     "tiang_jembatan",
+     "jembatan",
+     "pompa_air",
+     "lembaran_baja"
+    ],
+    "default": "isolator"
+   },
+   "hujan": {
+    "type": "bool",
+    "default": false
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "bagian": {
+    "type": "list",
+    "max": 3,
+    "default": [],
+    "desc": "label bagian benda; tiap item: {teks: str maks 18 huruf, cue: nomor cue saat label muncul}"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "bandingkan": {
+  "desc": "Dua benda berdampingan: kiri (cara lama/salah, tanda silang) vs kanan (cara benar, tanda centang). Untuk 'dulu vs sekarang', 'salah vs benar'.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "kiri": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk"
+    ],
+    "default": "tiang_bambu"
+   },
+   "kanan": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk"
+    ],
+    "default": "tiang_beton"
+   },
+   "teks_kiri": {
+    "type": "str",
+    "default": "",
+    "desc": "maks 14 huruf"
+   },
+   "teks_kanan": {
+    "type": "str",
+    "default": "",
+    "desc": "maks 14 huruf"
+   },
+   "kiri_cue": {
+    "type": "cue"
+   },
+   "kanan_cue": {
+    "type": "cue"
+   },
+   "pemenang": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "angka": {
+  "desc": "Angka/fakta besar di kartu putih di atas diorama. Untuk statistik, ukuran, durasi, harga, suhu.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "nilai": {
+    "type": "str",
+    "default": "0",
+    "desc": "mis. 2 meter, 40%, 10 tahun"
+   },
+   "keterangan": {
+    "type": "str",
+    "default": ""
+   },
+   "nilai_cue": {
+    "type": "cue"
+   },
+   "objek": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk",
+     "cofferdam",
+     "tiang_jembatan",
+     "jembatan",
+     "pompa_air",
+     "lembaran_baja"
+    ],
+    "default": "tidak_ada"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "penutup": {
+  "desc": "Shot lebar mundur dengan tokoh menjelaskan. Untuk kesimpulan/kalimat terakhir/ajakan.",
+  "params": {
+   "latar": {
+    "type": "enum",
+    "values": [
+     "kampung",
+     "sawah",
+     "kota",
+     "bukit",
+     "sungai"
+    ],
+    "default": "kampung",
+    "desc": "lingkungan diorama"
+   },
+   "objek": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "tiang_bambu",
+     "tiang_kayu",
+     "tiang_beton",
+     "tiang_besi",
+     "tangga",
+     "ember",
+     "pipa",
+     "batu",
+     "tumpukan_tanah",
+     "balok",
+     "bibit",
+     "isolator",
+     "pohon",
+     "kelapa",
+     "rumah",
+     "gubuk",
+     "cofferdam",
+     "tiang_jembatan",
+     "jembatan",
+     "pompa_air",
+     "lembaran_baja"
+    ],
+    "default": "tidak_ada"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header, mis. MASALAH / SOLUSI / KENAPA? (boleh kosong)"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "1-2 kata kunci (dipisah koma) yang disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar yang muncul mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "ikon2": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "matahari",
+     "termometer",
+     "larangan",
+     "centang",
+     "silang",
+     "petir",
+     "air",
+     "uang",
+     "jam",
+     "tanya",
+     "seru",
+     "api",
+     "angin",
+     "tanaman",
+     "ikan",
+     "rumah"
+    ],
+    "default": "tidak_ada"
+   },
+   "coret": {
+    "type": "bool",
+    "default": false,
+    "desc": "ikon dicoret (tanda larangan)"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah merah menunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks callout di objek utama (maks 18 huruf)"
+   },
+   "label_cue": {
+    "type": "cue"
+   },
+   "pemicu": {
+    "type": "str",
+    "default": "",
+    "desc": "kata pemicu dari cue (mis. rubuh) agar *_cue tepat di kata itu"
+   }
+  }
+ },
+ "cofferdam": {
+  "desc": "Tahapan pembangunan jembatan di tengah sungai menggunakan cofferdam: tancap sheet pile baja saling mengunci, kotak besi raksasa, sedot air pompa sampai kering, tekanan air sungai menekan dinding, pemasangan rangka baja penahan, pengecoran fondasi & tiang jembatan, pembongkaran dinding baja, hingga jembatan selesai membentang.",
+  "params": {
+   "tahap": {
+    "type": "enum",
+    "values": [
+     "sungai_deras",
+     "rencana_jembatan",
+     "rencana_tiang",
+     "gali_gagal",
+     "lembaran_baja",
+     "sambungan_baja",
+     "tancap",
+     "kotak_penuh",
+     "sedot",
+     "kering",
+     "tekanan",
+     "rangka",
+     "cor_tiang",
+     "bongkar",
+     "jembatan_selesai"
+    ],
+    "default": "tancap",
+    "desc": "tahapan konstruksi cofferdam"
+   },
+   "latar": {
+    "type": "enum",
+    "values": [
+     "sungai",
+     "kampung",
+     "kota",
+     "bukit"
+    ],
+    "default": "sungai",
+    "desc": "lingkungan diorama"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "kata kunci disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "air",
+     "seru",
+     "tanya",
+     "centang",
+     "silang",
+     "jam",
+     "larangan",
+     "petir",
+     "matahari",
+     "termometer"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah penunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks label yang menunjuk objek"
+   },
+   "label_cue": {
+    "type": "cue"
+   }
+  }
+ },
+ "panama": {
+  "desc": "Tahapan sistem lift air Terusan Panama: kapal laut raksasa puluhan ribu ton, larangan crane, lokasi Terusan Panama, konsep lift air, misteri tanpa mesin/tali, rahasia daya apung air, mendekati gerbang baja, gerbang terbuka, kapal masuk ke ruangan lock, gerbang ditutup rapat, saluran air bawah tanah mengalirkan air dari tempat tinggi, permukaan air dan kapal terangkat perlahan tanpa crane dan tanpa sentuh dasar, penyeimbangan air selevel dengan segmen berikutnya, gerbang depan dibuka, kapal melanjutkan perjalanan, sistem tangga air 3 tingkat (26 meter), proses dibalik untuk menurunkan kapal, air dialirkan keluar dan kapal turun, hingga kesimpulan kehebatan sistem gravitasi dan air alami.",
+  "params": {
+   "tahap": {
+    "type": "enum",
+    "values": [
+     "kapal_laut",
+     "crane_larangan",
+     "mustahil_tanya",
+     "lokasi_panama",
+     "konsep_lift",
+     "tanpa_mesin",
+     "rahasia_air",
+     "mendekati_gerbang",
+     "gerbang_raksasa",
+     "gerbang_buka",
+     "masuk_lock",
+     "ruangan_lock",
+     "gerbang_tutup",
+     "saluran_bawah",
+     "air_naik",
+     "kapal_terangkat",
+     "tanpa_crane",
+     "tanya_lanjut",
+     "air_selevel",
+     "gerbang_depan_buka",
+     "kapal_keluar",
+     "tangga_bertingkat",
+     "proses_turun",
+     "air_turun",
+     "kesimpulan_permukaan",
+     "penutup_gravitasi"
+    ],
+    "default": "kapal_laut",
+    "desc": "tahapan mekanisme lift air Terusan Panama"
+   },
+   "latar": {
+    "type": "enum",
+    "values": [
+     "sungai",
+     "kampung",
+     "kota",
+     "bukit"
+    ],
+    "default": "sungai",
+    "desc": "lingkungan diorama"
+   },
+   "label": {
+    "type": "str",
+    "default": "",
+    "desc": "label kecil di header babak"
+   },
+   "judul": {
+    "type": "str",
+    "default": "",
+    "desc": "judul header 2-5 kata yang merangkum adegan"
+   },
+   "sorot": {
+    "type": "str",
+    "default": "",
+    "desc": "kata kunci disorot kotak biru di header & subtitle"
+   },
+   "ikon": {
+    "type": "enum",
+    "values": [
+     "tidak_ada",
+     "air",
+     "seru",
+     "tanya",
+     "centang",
+     "silang",
+     "jam",
+     "larangan",
+     "petir",
+     "matahari",
+     "termometer"
+    ],
+    "default": "tidak_ada",
+    "desc": "ikon besar mengambang"
+   },
+   "ikon_cue": {
+    "type": "cue",
+    "desc": "cue saat ikon muncul"
+   },
+   "panah": {
+    "type": "bool",
+    "default": false,
+    "desc": "panah penunjuk objek utama"
+   },
+   "panah_cue": {
+    "type": "cue"
+   },
+   "panah_dari": {
+    "type": "enum",
+    "values": [
+     "kanan",
+     "kiri"
+    ],
+    "default": "kanan"
+   },
+   "label_objek": {
+    "type": "str",
+    "default": "",
+    "desc": "teks label yang menunjuk objek"
+   },
+   "label_cue": {
+    "type": "cue"
+   }
+  }
+ }
+}

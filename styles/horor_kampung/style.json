@@ -1,0 +1,52 @@
+{
+  "name": "horor_kampung",
+  "label": "Horor Kampung (siluet, lampu teplok, kabut)",
+  "warna_subtitle": {
+    "narasi": "#f3ead9",
+    "dialog": "#eaa45c",
+    "seram": "#e07a6a"
+  },
+  "ambience": {
+    "angin": 0.16,
+    "dengung": 0.1,
+    "dengung2": 0.05,
+    "jangkrik": 0.018,
+    "jangkrik_berhenti_sebelum_ketuk": true,
+    "swell_akhir": 0.16
+  },
+  "sfx": {
+    "ketuk": {
+      "file": "tok.wav",
+      "vol": 0.9
+    },
+    "ketuk_jauh": {
+      "file": "far.wav",
+      "vol": 0.22
+    },
+    "ketuk_pintu": {
+      "file": "door.wav",
+      "vol": 0.55
+    },
+    "brak": {
+      "file": "brak.wav",
+      "vol": 0.8
+    }
+  },
+  "vo_echo": true,
+  "bgm_volume": 0.25,
+  "grade": {
+    "brightness": 1.4,
+    "contrast": 1.08,
+    "saturate": 1.2,
+    "vignette": 0.6,
+    "handheld": 1
+  },
+  "warna_aktif": {
+    "narasi": "#ffd166",
+    "dialog": "#ffc078",
+    "seram": "#ff4a3a"
+  },
+  "maks_detik_adegan": 9,
+  "crossfade": 0.32,
+  "subtitle_kata": 4
+}
